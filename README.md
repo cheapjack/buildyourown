@@ -1,6 +1,6 @@
 # DesktopProsthetics
-![image](https://cloud.githubusercontent.com/assets/128456/7040584/a3fd090a-ddc8-11e4-8ba6-737d42fba371.png)
 ![image](http://enablingthefuture.org/wp-content/uploads/2014/05/raptor-hand.jpg)
+Image source [Enabling the Future](http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/) Licensed under [Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/ "License Link")
 
 ## Project mgmt and help files for Baylee &amp; DoESLiverpool's 3D printed prosthetic hand project
 
@@ -10,5 +10,7 @@
 
 ###Over the course of the exhibition FACT Gallery Assistants and DoESLiverpool will assist the public in testing and building 3D printed prosthetic devices. The public will have the opportunity to play, experiment and understand what prosthetics are and how access to rapid prototyping and open source digital making tools that can help people make the world the way they want it.
 
-This repo has [Issues](https://github.com/cheapjack/buildyourown/issues "github issues for the project") to aid @cheapjack @amcewen and @defproc management of the project and information, image links, portals and copy for publicity in the events folder
-
+This repo has 
+* [Issues](https://github.com/cheapjack/buildyourown/issues "github issues for the project") to aid @cheapjack @amcewen and @defproc management of the project and information
+* [copy as README.md files]( for publicity in the events folder
+* Other useful info like models 
