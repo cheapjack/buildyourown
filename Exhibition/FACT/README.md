@@ -1,8 +1,8 @@
-###Space Setup
+###FACT Space Setup
 
 ![byopsetup](https://cloud.githubusercontent.com/assets/128456/7092719/006cf9f4-dfac-11e4-9b8c-7107b394581d.jpg)
 
-* Space Setup: L shaped in corner of space middle of G: like the blue panels in image below so space visible through the G1 window
+* Space Setup: L shape in middle of G1 space: like the blue panels in image below but so space visible through the G1 window
 
 ![plan1](https://cloud.githubusercontent.com/assets/128456/7092792/5374e472-dfac-11e4-8f2b-3bdd9b5d25bc.png)
 
