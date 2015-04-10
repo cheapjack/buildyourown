@@ -4,7 +4,7 @@ Image source [Enabling the Future](http://enablingthefuture.org/upper-limb-prost
 
 ### Copy:
 
-###[DoESLiverpool](http://doesliverpool.com "DoESLiverpool's Homepage") will develop an iteration of the [Enabling the Future](http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/ "Enabling The Future Website") project within the Build Your Own Show at FACT inspired by Baylee. DoESLiverpool is a community of makers and entrepreneurs in Liverpool, with a Co-Working space, Workshop and Event Hub. It’s a place to work, learn, share ideas, form groups and make things the way you want to for small fees or initially, cake.
+###[DoESLiverpool](http://doesliverpool.com "DoESLiverpool's Homepage") will develop an iteration of the [Enabling the Future](http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/ "Enabling The Future Website") project within the Build Your Own Show at FACT inspired by Baylee ***Surname to Follow***. DoESLiverpool is a community of makers and entrepreneurs in Liverpool, with a Co-Working space, Workshop and Event Hub. It’s a place to work, learn, share ideas, form groups and make things the way you want to for small fees or initially, cake.
 
 ###DoES will be lead creative technologists to help setup, facilitate and support  a ‘production line’ area of Build Your Own that introduces the idea of 3D printing open source designs of prosthetic hands. It's inspired by Baylee and her parents who used DoESLiverpool's workshop to print hand parts independently of this project.
 
