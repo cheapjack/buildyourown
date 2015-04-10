@@ -12,5 +12,5 @@ Image source [Enabling the Future](http://enablingthefuture.org/upper-limb-prost
 
 This repo has 
 * [Issues](https://github.com/cheapjack/buildyourown/issues "github issues for the project") to aid @cheapjack @amcewen and @defproc management of the project and information
-* [copy as README.md files]( for publicity in the events folder
-* Other useful info like models 
+* [copy as README.md files](https://github.com/cheapjack/buildyourown/tree/master/events) for publicity in the events folder
+* Other useful info like model parts
