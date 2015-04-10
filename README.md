@@ -10,5 +10,5 @@
 
 ###Over the course of the exhibition FACT Gallery Assistants and DoESLiverpool will assist the public in testing and building 3D printed prosthetic devices. The public will have the opportunity to play, experiment and understand what prosthetics are and how access to rapid prototyping and open source digital making tools that can help people make the world the way they want it.
 
-This repo has Issues to aid @cheapjack @amcewen and @defproc management of the project and information, image links, portals and copy for publicity in the events folder
+This repo has [Issues](https://github.com/cheapjack/buildyourown/issues "github issues for the project") to aid @cheapjack @amcewen and @defproc management of the project and information, image links, portals and copy for publicity in the events folder
 
