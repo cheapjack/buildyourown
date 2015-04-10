@@ -10,8 +10,8 @@ Image source [Enabling the Future](http://enablingthefuture.org/upper-limb-prost
 
 ###Over the course of the exhibition FACT Gallery Assistants and DoESLiverpool will assist the public in testing and building 3D printed prosthetic devices. The public will have the opportunity to play, experiment and understand what prosthetics are and how access to rapid prototyping and open source digital making tools that can help people make the world the way they want it.
 
-
-### Project mgmt and help files for Baylee &amp; DoESLiverpool's 3D printed prosthetic hand project
+### Information:
+Project mgmt and help files for Baylee &amp; DoESLiverpool's 3D printed prosthetic hand project
 
 This repo has 
 * [Issues](https://github.com/cheapjack/buildyourown/issues "github issues for the project") to aid @cheapjack @amcewen and @defproc management of the project and information
