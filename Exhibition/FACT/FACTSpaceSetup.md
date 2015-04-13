@@ -12,16 +12,35 @@
 
 ![vitrine](https://cloud.githubusercontent.com/assets/128456/7092831/9c09f344-dfac-11e4-83c1-de42e2aad2ed.png)
 
-* 5 steps of  design/build story on wall mounted shelves, possibly with clear vitrine with mix of hit and miss panels for displaying info, but 2 pegboard panels in the mix
-...Measuring & Model
-...Print
-...Tidy parts
-...Collect Things
-...Assembly
+### 5 steps of  design/build story 
+On wall mounted shelves, possibly with clear vitrine with mix of hit and miss panels for displaying info, but 2 pegboard panels in the mix.
+### 5 'plinths' essentially
+
+1. Measuring & Model
+  * Measuring hands and using the Enabling The Futures [Handomatic](http://webapp.e-nable.me/ "Link to the Handomatic Web App") Web Application
+
+2. Print
+  * Print instruction diagram
+
+3. Tidy parts
+  * Use tools from the toolbench to help clear/clean and prep components for assembly
+
+4. Collect Things
+
+5. Assembly
 
 ![tablewithwheelchair](https://cloud.githubusercontent.com/assets/128456/7092834/a6491e48-dfac-11e4-9761-bb5db589470c.jpg)
 
-* Another table or multi-accessible workbench with all the things you can play with. This is the space for assembly/workshopping. Use existing stools. Like these but at a height a wheelchair could work with, and maybe 2 back to back? so work at them like a workbench with power
+* Another table or multi-accessible workbench with space for assembly and prepping of components
+  * all the things you can play with. 
+  * Up printer possibly on here
+  * Toolbench
+    * We need tools to help prep the components possibly making dowels for sanding components down
+    * Gloves and safety glasses and pliers, could be stored on the pegboards behind the printer 'plinths'/shelves
+  * This is the space for assembly/workshopping. 
+  * Power
+  * Wheelchair accessible as image above:
+  * Mix of benches and individual stools?
 
 * Print Queue server management using [OctoPrint](http://octoprint.org/ "Octoprint website") print queue system run off pi or tablet, potentially So there may be a way of alerting the person whose pieces are being printed
 
