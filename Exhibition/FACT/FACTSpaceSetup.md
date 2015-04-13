@@ -1,5 +1,7 @@
 ###FACT Space Setup
 
+> Outstanding questions formatted like this
+
 ![byopsetup](https://cloud.githubusercontent.com/assets/128456/7092719/006cf9f4-dfac-11e4-9b8c-7107b394581d.jpg)
 
 * Space Setup: L shape in middle of G1 space: like the blue panels in image below but so space visible through the G1 window
@@ -17,10 +19,11 @@ On wall mounted shelves, possibly with clear vitrine with mix of hit and miss pa
 ### 5 'plinths' essentially
 
 1. Measuring & Model
- * Measuring hands and using the Enabling The Futures [Handomatic](http://webapp.e-nable.me/ "Link to the Handomatic Web App") Web Application
- * Exhibits:
-  * A set of calipers for measuring
-  * A tablet (provided by FACT) running the Handomatic app to show the digital model
+  * Measuring hands and using the Enabling The Futures [Handomatic](http://webapp.e-nable.me/ "Link to the Handomatic Web App") Web Application
+  * Exhibits:
+    * A set of calipers for measuring
+    * A tablet (provided by FACT) running the Handomatic app to show the digital model
+> Q: Do we need to secure the calipers?
 
 2. Print
   * Print instruction diagram
