@@ -23,4 +23,5 @@ Collaborators and partners:
  * June-August 2015: FACT, Liverpool
  * October 2015-January 2016: Norwich Castle Museum & Art Gallery, Norwich
 
+During the exhibitions there will be a series of workshops.  These will be open to all and cover a range of activities - measuring and then assembling hands for members of the Reach community; and exploring new possibilities offered by the inherent personalisation provided by 3d-printed manufacturing techniques.  Details of the events are being developed in the [events section](https://github.com/cheapjack/buildyourown/tree/master/events) of our project management site.
 
