@@ -17,7 +17,10 @@ On wall mounted shelves, possibly with clear vitrine with mix of hit and miss pa
 ### 5 'plinths' essentially
 
 1. Measuring & Model
-  * Measuring hands and using the Enabling The Futures [Handomatic](http://webapp.e-nable.me/ "Link to the Handomatic Web App") Web Application
+ * Measuring hands and using the Enabling The Futures [Handomatic](http://webapp.e-nable.me/ "Link to the Handomatic Web App") Web Application
+ * Exhibits:
+  * A set of calipers for measuring
+  * A tablet (provided by FACT) running the Handomatic app to show the digital model
 
 2. Print
   * Print instruction diagram
