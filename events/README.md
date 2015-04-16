@@ -4,7 +4,7 @@
 
 FACT Liverpool events:
  * Measuring Up **Saturday 6th June**
- * [What's your superpower? A Prosthetic Hack!](prostheticshack) **Sunday 20th June** 
+ * [What's your superpower? A Prosthetic Hack!](prostheticshack) **Sunday 21st June** 
  * Assembly workshop **Saturday 18th July** & **Saturday 15th August**
  * TBD
 
