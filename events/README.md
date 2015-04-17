@@ -5,7 +5,7 @@
 FACT Liverpool events:
  * [Measuring Up](https://github.com/cheapjack/buildyourown/tree/master/events/measuringupworkshop) **Saturday 6th June**
  * [What's your superpower? A Prosthetic Hack!](prostheticshack) **Saturday 25th July** 
- * Assembly workshop **Saturday 8th August** & **Saturday 22nd August**
+ * [Assembly workshop](https://github.com/cheapjack/buildyourown/blob/master/events/Assemblyworkshop.md) **Saturday 8th August** & **Saturday 22nd August**
  * TBD
 
 Norwich Castle events to be defined, arranged, etc. by the Norwich partners.
