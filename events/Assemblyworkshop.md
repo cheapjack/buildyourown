@@ -5,7 +5,7 @@ Image source [Enabling the Future on Thingiverse](http://thingiverse-production-
 ### Saturday 6th June 2015 FACT Gallery 1 11am-4pm FREE
 ### DoESLiverpool will be helping Finish, Assemble, test and fit printed hands from the Desktop Prosthetics Project
 
-Copy signed off * [ ]
+ * [ ] Copy signed off
 
 
 
