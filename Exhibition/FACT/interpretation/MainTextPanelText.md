@@ -18,12 +18,11 @@ Check the events panel for more details on how you can take part.
 [also add something for visualisation? – CC needs to confirm this]
 
 *[other credits]*
-
-www.doesliverpool.com
-www.enablingthefuture.org
+http://www.reach.org.uk/
+http://doesliverpool.com
+http://enablingthefuture.org
 
 ### What is DoESLiverpool?
-[DoES Liverpool](http://doesliverpool.com) is a co-working space, workshop, event hub, and much more. 
 
 * A community of people and CIC with diverse skills and interests. Any profit helps and sustains the community.
 * A co-working space in the heart of Liverpool with desks available to rent. 
@@ -35,4 +34,4 @@ www.enablingthefuture.org
 * Get involved!
 * http://doesliverpool.com/get-involved/
 
-### http://www.doesliverpool.com
+### http://doesliverpool.com
