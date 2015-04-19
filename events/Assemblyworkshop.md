@@ -2,7 +2,8 @@
 
 ![image](http://thingiverse-production.s3.amazonaws.com/renders/bf/a4/2d/f6/18/Raptor-Hand-Parts---Exploded-View_preview_featured.jpg)
 Image source [Enabling the Future on Thingiverse](http://www.thingiverse.com/thing:476403) Licensed under [Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/ "License Link")
-### **Saturday 8th August** & **Saturday 22nd August** FACT Gallery 1 11am-4pm FREE
+### **Saturday 8th August** & **Saturday 22nd August** FACT Gallery 1 12pm-4.30pm FREE
+**Age 3 and above, children accompanied by an adult**
 ### DoESLiverpool will be helping Finish, Assemble, test and fit printed hands from the Desktop Prosthetics Project
 
  * [ ] Copy signed off
