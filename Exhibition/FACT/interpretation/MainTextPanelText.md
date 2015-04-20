@@ -4,14 +4,14 @@
 **Reach NorthWest** 
 **E-nabling the Future**
 **Norwich Hackspace**
-* [ ] Signed off Reach NorthWest  
+* [x] Signed off Reach NorthWest  
 * [ ] Signed off E-nabling the Future
-* [ ] Signed off Norwich Hackspace
+* [ ] Signed off Norwich Hackspace? *this necessary?*
 
 **DoESLiverpool** presents an iteration of the open-source project [Enabling the Future](http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/ "Enabling The Future Website"), 
 a global network of passionate volunteers using 3D printing to give the world a 'helping hand'. 
 Inspired by a local family who used DoESLiverpool's workshop to print hand parts independently, DoES has installed a ‘production line’ for prosthetic hands using 3D printing technology and the open-source "Raptor Hand" design. 
-[more about the ethos of DoES, the philosophy of Open Source, Creative Comms and decentralising production and bringing communities together to teach one another and trade skills in an equal, free-trading style environment.]
+*[more about the ethos of DoES, the philosophy of Open Source, Creative Comms and decentralising production and bringing communities together to teach one another and trade skills in an equal, free-trading style environment.]*
 
 Over the course of the exhibition, DoES Liverpool and Norwich Hackspace invite you to get involved in testing and building prosthetics, experiment and understand what prosthetics are and how access to rapid prototyping and open source digital making tools can help people make the world the way they want it. 
 Check the events panel for more details on how you can take part.
