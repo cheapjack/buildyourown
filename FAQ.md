@@ -10,11 +10,11 @@ As each hand is custom to its recipient - varying a bit in size, but also custom
 
 Taking one of the hands we've printed as an example, there are 14 parts in total:
 
-Gauntlet - 10 h 39 m, 69.7g of plastic
-Palm - 16 h 45 m, 96.2g of plastic
-Fingers - 13 h 53 m, 79.8g of plastic
-Other parts - 5 h 13 m, 30.5g of plastic
-Hinge caps - 0 h 26 m, 2.8g of plastic
+ * Gauntlet - 10 h 39 m, 69.7g of plastic
+ * Palm - 16 h 45 m, 96.2g of plastic
+ * Fingers - 13 h 53 m, 79.8g of plastic
+ * Other parts - 5 h 13 m, 30.5g of plastic
+ * Hinge caps - 0 h 26 m, 2.8g of plastic
 
 So in total that's 47 hours of printing and 280g of plastic.  The weight includes the support material used during the printing, which is removed later, but when you add the metal hinge pins and cords, the resultant weight will probably be similar.
 
