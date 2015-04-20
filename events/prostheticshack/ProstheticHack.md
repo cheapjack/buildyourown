@@ -13,7 +13,7 @@ http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/
 http://doesliverpool.com
 
  * [ ] Copy signed off
- * 
+
 ### Workshop Activity
 * Look at prosthetic design
 * Explore unique user applications
