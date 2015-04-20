@@ -6,9 +6,9 @@ Image source [Enabling the Future on Thingiverse](http://thingiverse-production-
 ## Saturday 25th July FACT Gallery 1 12pm-4.30pm FREE
 **Age 3 and above, children accompanied by an adult**
 
-### DoESLiverpool will be hosting a prosthetic hackday exploring how the DesktopProsthetics project, part of Build Your Own, can be hacked and modified to explore the diversity of prosthetic design.
+### DoESLiverpool will be hosting a prosthetic hackday exploring how the DesktopProsthetics project, part of Build Your Own, can be hacked and modified to explore the diversity of prosthetic design. The raptor hand used is a general pick up and place prosthetic but with rapid prototyping tools like 3D printing can we develop modifications or 'hacks' for more specific users? What prosthetics could we make for hiphop MC's, dancers, mathematicians, event organisers, gallery assistants or engineers?  We will look at the Raptor hand design as a group then prototype and modify and present the co-designs.
 
-@DoESLiverpool will be exploring ways to co-design modifications of the Raptor hand design by enabling the future http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/
+ http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/
 http://doesliverpool.com
 
  * [ ] Copy signed off
