@@ -8,4 +8,5 @@ FACT Liverpool events:
  * [Assembly workshop](https://github.com/cheapjack/buildyourown/blob/master/events/Assemblyworkshop.md) **Saturday 8th August** & **Saturday 22nd August**
  * TBD
 * [ ] event dates signed off
-Norwich Castle events to be defined, arranged, etc. by the Norwich partners.
+
+**Norwich Castle events to be defined, arranged, etc. by the Norwich partners.**
