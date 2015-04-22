@@ -4,7 +4,7 @@
 
 FACT Liverpool events:
  * [Measuring Up](MeasuringUpWorkshop.md) **Saturday 6th June**
- * [What's your superpower? A Prosthetic Hack!](ProstheticsHack.md) **Saturday 25th July** 
+ * [What's your superpower? A Prosthetic Hack!](ProstheticHack.md) **Saturday 25th July** 
  * [Assembly workshop](Assemblyworkshop.md) **Saturday 8th August** & **Saturday 22nd August**
 * [ ] event dates signed off
 
