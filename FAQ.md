@@ -34,7 +34,13 @@ By working with [Reach](http://reach.org.uk/), the association for children with
 
 ### Is this a project DoES Liverpool is looking to expand?
 
-> _**Need to fill this in with the answer we work out**_
+DoESLiverpool like many makerspaces and hackspaces, as an organisation do not do projects in a sense, we simply help our community to realise their projects with the facilities we have. Our community is essentially anyone who wants to do something with us. 
+
+This collaboration with FACT was inspired from a local family printing a prosthetic hand in our workshop and the 3 members of the community leading the project have interests and skills in 3D printing.
+
+Part of the deal of this project is that DoESLiverpool and Norwich Hackspace can keep the new larger 3D printers so that if people do need to print more hands in the future, we will have extended our facilities so that they can.  
+
+If a group grows and develops around the activity in the exhibition then that group can continue to   use DoESLiverpool to support it like the many diverse groups that call DoESLiverpool home.
 
 ### What limits are there, if any, with 3D printing?
 
