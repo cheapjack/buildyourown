@@ -1,7 +1,6 @@
 # DesktopProsthetics
-![image](http://enablingthefuture.org/wp-content/uploads/2014/05/raptor-hand.jpg)
-Image source [Enabling the Future](http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/) Licensed under [Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/ "License Link")
-
+![image](RaptorHandBeingWorn.jpg)
+Image Copyright Jason Abbott.
 ### Copy:
 
 ###[DoESLiverpool](http://doesliverpool.com "DoESLiverpool's Homepage") will develop an iteration of the [Enabling the Future](http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/ "Enabling The Future Website") project within the Build Your Own Show at FACT. DoESLiverpool is a community of makers and entrepreneurs in Liverpool, with a Co-Working space, Workshop and Event Hub. It’s a place to work, learn, share ideas, form groups and make things the way you want to for small fees or initially, cake.
