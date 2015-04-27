@@ -1,13 +1,13 @@
 ###FACT Space Setup
 
 > _**Outstanding questions formatted like this**_
-
+*Original suggested setup*
 ![byopsetup](https://cloud.githubusercontent.com/assets/128456/7092719/006cf9f4-dfac-11e4-9b8c-7107b394581d.jpg)
 
 * Space Setup: Revised by the Bloors on Fri 23rd April
 ![byo does story option 1](https://cloud.githubusercontent.com/assets/128456/7344084/8bdff6a0-ecc0-11e4-8f5c-87cb2d117e47.jpg)
 ![byo does story option 1b](https://cloud.githubusercontent.com/assets/128456/7344085/8cb17ca2-ecc0-11e4-9f36-831a44c94be3.jpg)
-Needs commenting and confirming in issue [#12](https://github.com/cheapjack/buildyourown/issues/12)
+> _**Needs commenting and confirming in issue #12**_
 * [ ] Confirm setup
 
 ![pegboard](https://cloud.githubusercontent.com/assets/128456/7092806/615fc78c-dfac-11e4-983f-1f7a721d3fb5.png)
