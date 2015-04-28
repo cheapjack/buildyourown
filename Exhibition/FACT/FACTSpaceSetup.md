@@ -4,9 +4,12 @@
 *Original suggested setup*
 ![byopsetup](https://cloud.githubusercontent.com/assets/128456/7092719/006cf9f4-dfac-11e4-9b8c-7107b394581d.jpg)
 
-* Space Setup: Revised by the Bloors on Fri 23rd April
-![byo does story option 1](https://cloud.githubusercontent.com/assets/128456/7344084/8bdff6a0-ecc0-11e4-8f5c-87cb2d117e47.jpg)
-![byo does story option 1b](https://cloud.githubusercontent.com/assets/128456/7344085/8cb17ca2-ecc0-11e4-9f36-831a44c94be3.jpg)
+Current preferred setup as of 28/4/15
+
+*Option 3*
+![byo does story option 3](https://cloud.githubusercontent.com/assets/128456/7344262/0a9a7726-ecc2-11e4-9821-ab984373dcff.jpg)
+![byo does story option 3b](https://cloud.githubusercontent.com/assets/128456/7344263/0acdc1b2-ecc2-11e4-8dfa-88b9366ada36.jpg)
+
 > _**Needs commenting and confirming in issue #12**_
 * [ ] Confirm setup
 
