@@ -5,7 +5,7 @@
 Current preferred setup as of 28/4/15
 
 *Option 3*
-![byo does story option 3](https://cloud.githubusercontent.com/assets/128456/7344262/0a9a7726-ecc2-11e4-9821-ab984373dcff.jpg)
+![byo does story option 3b](https://cloud.githubusercontent.com/assets/128456/7344263/0acdc1b2-ecc2-11e4-8dfa-88b9366ada36.jpg)
 ![byo latest 28_04 does printbench](https://cloud.githubusercontent.com/assets/11942678/7378327/8725a9aa-ede4-11e4-846e-e1c44709b8be.jpg)
 
 > _**Needs commenting and confirming in issue #12**_
