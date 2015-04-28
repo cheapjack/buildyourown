@@ -1,17 +1,18 @@
 ###FACT Space Setup
 
 > _**Outstanding questions formatted like this**_
-*Original suggested setup*
-![byopsetup](https://cloud.githubusercontent.com/assets/128456/7092719/006cf9f4-dfac-11e4-9b8c-7107b394581d.jpg)
 
 Current preferred setup as of 28/4/15
 
 *Option 3*
 ![byo does story option 3](https://cloud.githubusercontent.com/assets/128456/7344262/0a9a7726-ecc2-11e4-9821-ab984373dcff.jpg)
-![byo does story option 3b](https://cloud.githubusercontent.com/assets/128456/7344263/0acdc1b2-ecc2-11e4-8dfa-88b9366ada36.jpg)
+![byo latest 28_04 does printbench](https://cloud.githubusercontent.com/assets/11942678/7378327/8725a9aa-ede4-11e4-846e-e1c44709b8be.jpg)
 
 > _**Needs commenting and confirming in issue #12**_
 * [ ] Confirm setup
+
+*Original suggested setup*
+![byopsetup](https://cloud.githubusercontent.com/assets/128456/7092719/006cf9f4-dfac-11e4-9b8c-7107b394581d.jpg)
 
 ![pegboard](https://cloud.githubusercontent.com/assets/128456/7092806/615fc78c-dfac-11e4-983f-1f7a721d3fb5.png)
 
