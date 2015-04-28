@@ -48,4 +48,18 @@ Like any manufacturing technique, 3d printing has its advantages and disadvantag
 
 As the Enabling the Future project is geared towards democratising access to prosthetics, we're using printers from the more affordable end of the range which print in plastic (rather than resin or metal).  This type of printing can only print in one or sometimes two colours of material at a time; and while the prints are surprisingly robust, the printing technique gives the models a sort of "grain" - like you get in wood - where it's weaker when subject to forces along that grain.
 
+### What are Makerspaces?
+
+What exactly is a makerspace? Using the term broadly, we’re talking about public spaces or small volunteer run membership organisations with different tools and equipment where people can go to independently make something or meet potentially like minded people. While we need to appreciate the diversity of these spaces, it’s also important to think beyond formalised networks (like Fab Labs) and focus on spaces defined by a specific ethos (like Hackspaces). So Fab Labs have similar facilities in common with maker spaces and hackspaces but alot more formalised and less community led to a varying degree. DoESLiverpool has things in common with say HacMan but also includes a co-working space to support their facilities and also is a home for not just making but tech culture in general supporting IoT Liverpool, Startup clups and coder dojo's all led and run by local(and not so local) interest groups/affiliates/organisers/hot deskers/permanent desk people or just members of the google group mailing list interested in running something.
+
+Hannah Stewart at the **Creative Exchange** has been doing some very detailed open research into the area [released here in alpha](http://www.nesta.org.uk/publications/open-dataset-uk-makerspaces-users-guide)
+also worth checking http://www.hackspace.org.uk/wiki/Main_Page
+
+DoESLiverpool like many makerspaces and hackspaces, as an organisation do not do projects in a sense, we simply help our community to realise their projects with the facilities we have. Our community is essentially anyone who wants to do something with us.
+
+As said above this collaboration with FACT was inspired by a member of our communities interest: the 3 'leaders' of the project have interests and skills in 3D printing, which is why it's happening. If nobody in the community wanted to do it, it would not happen. If a group grows and develops around the activity in the exhibition then that group can continue to use DoESLiverpool and the new printer to support it like the many diverse groups that call DoESLiverpool home.
+
+This is a common theme in many maker and hackerspaces: somebody donates or stores some kit permanently or temporarily and then often more and more people start to use it and interest groups can (but not always) build around things like this. Also there is a general openness across these spaces although at the same time a haven for people interested in certain things.
+
+For instance @cheapjack recently setup a small exchange between a hackerspace in Bochum, Germany DasLabor and DoESLiverpool which you can see more about here. Like DoESLiverpool they are primarily a member led space for their community but do come together for events like DesktopProsthetics and Maker Faire UK to let the wider public know about what they do.
 
