@@ -52,8 +52,8 @@ As the Enabling the Future project is geared towards democratising access to pro
 
 What exactly is a makerspace? Using the term broadly, we’re talking about public spaces or small volunteer run membership organisations with different tools and equipment where people can go to independently make something or meet potentially like minded people. While we need to appreciate the diversity of these spaces, it’s also important to think beyond formalised networks (like Fab Labs) and focus on spaces defined by a specific ethos (like Hackspaces). So Fab Labs have similar facilities in common with maker spaces and hackspaces but alot more formalised and less community led to a varying degree. DoESLiverpool has things in common with say HacMan but also includes a co-working space to support their facilities and also is a home for not just making but tech culture in general supporting IoT Liverpool, Startup clups and coder dojo's all led and run by local(and not so local) interest groups/affiliates/organisers/hot deskers/permanent desk people or just members of the google group mailing list interested in running something.
 
-Hannah Stewart at the **Creative Exchange** has been doing some very detailed open research into the area [released here in alpha](http://www.nesta.org.uk/publications/open-dataset-uk-makerspaces-users-guide)
-also worth checking http://www.hackspace.org.uk/wiki/Main_Page
+Hannah Stewart at the **Creative Exchange** has been doing some very detailed open research into the area which is linked from [this introductory blog post](http://www.nesta.org.uk/blog/top-findings-open-dataset-uk-makerspaces)
+also worth checking http://www.hackspace.org.uk/wiki/Main_Page and http://hackerspaces.org/ (for a global list of hackspaces)
 
 DoESLiverpool like many makerspaces and hackspaces, as an organisation do not do projects in a sense, we simply help our community to realise their projects with the facilities we have. Our community is essentially anyone who wants to do something with us.
 
