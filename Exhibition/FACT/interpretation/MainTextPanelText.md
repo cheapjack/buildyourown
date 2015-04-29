@@ -1,10 +1,10 @@
 ## Desktop Prosthetics (2015)
 ###DoESLiverpool: Ross Dalziel, Patrick Fenner and Adrian McEwen
 ###Partners
-**Reach NorthWest** 
-**E-nabling the Future**
+**Reach**,
+**E-nabling the Future**,
 **Norwich Hackspace**
-* [x] Signed off Reach NorthWest  
+* [x] Signed off Reach  
 * [ ] Signed off E-nabling the Future
 * [ ] Signed off Norwich Hackspace? *this necessary?*
 
@@ -15,7 +15,7 @@
 
 Over the course of the exhibition, DoES Liverpool will be working with **Reach**, the association for children with upper limb deficiency, to help a number of local children build and assemble a prosthetic device. We invite you to get involved in testing and building prosthetics, experiment and understand what prosthetics are and how access to rapid prototyping and open source digital making tools can help people make the world the way they want it. Check the events panel for more details on how to take part.
 
-Developed with the support of Reach North West and E-nabling the Future 
+Developed with the support of Reach and E-nabling the Future 
 
 *[other credits]*
 http://www.reach.org.uk/
