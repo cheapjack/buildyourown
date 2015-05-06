@@ -1,5 +1,5 @@
 
-**Desktop Prosthetics (2015)**
+***Desktop Prosthetics (2015)***
 DoESLiverpool: Ross Dalziel, Patrick Fenner and Adrian McEwen
  
 ***DoESLiverpool*** presents an iteration of the open-source project e-NABLE, a global network of passionate volunteers using 3D printing to make prosthetic hands. Inspired by a local family who used DoESLiverpool's workshop to print hand parts, DoES has installed a ‘production line’ for prosthetic hands. They will be 3D printing the open-source Raptor Hand design, which is more of a tool rather than a fully functional prosthetic device, developed to make printing and assembly of the hand’s components as simple as possible.
