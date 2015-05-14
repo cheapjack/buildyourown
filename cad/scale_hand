@@ -2,10 +2,51 @@
 
 USER_ID=memorable_string_of_words
 OUTPUT_FOLDER=hands/$USER_ID
+INPUT_FOLDER=src/
 MEASUREMENT=63
+SILENT_RUNNING=0
 
+USAGE="Usage: `basename $0` [-h] [-q] [-m measurement] [-u user_id] [-o output_folder] [-i input_folder] "
+
+#Parse the command line options
+while getopts hqm:u:o:i: OPT; do 
+    case "$OPT" in 
+        h)
+            echo $USAGE
+            exit 0
+            ;;
+        q)
+            SILENT_RUNNING=1
+            ;;
+        m)
+            MEASUREMENT=$OPTARG
+            ;;
+        u)
+            USER_ID=$OPTARG
+            ;;
+        o)
+            OUTPUT_FOLDER=$OPTARG
+            ;;
+        i)
+            INPUT_FOLDER=$OPTARG
+            ;;
+    esac
+done
+
+# ask for input if not in silent running mode
+if [ $SILENT_RUNNING -eq 0 ]
+then
+    read -p "Input user id [$USER_ID]: " INPUT
+    [[ -z "$INPUT" ]] && USER_ID=$INPUT
+
+    read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
+    [[ -z "$INPUT" ]] && MEASUREMENT=$INPUT
+fi
+
+# do the actual creation of the files
 mkdir -p $OUTPUT_FOLDER
-openscad -o $OUTPUT_FOLDER/cuff.stl -D measurement=$MEASUREMENT cuff.scad
-openscad -o $OUTPUT_FOLDER/palm.stl -D measurement=$MEASUREMENT palm.scad
+#openscad -o $OUTPUT_FOLDER/cuff.stl -D measurement=$MEASUREMENT $INPUT_FOLDER/cuff.scad
+
+openscad -o $OUTPUT_FOLDER/raptor_2.0_finger_pin.stl -D measurement=$MEASUREMENT $INPUT_FOLDER/raptor_2.0_finger_pin.scad
 
 
