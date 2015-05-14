@@ -37,10 +37,10 @@ done
 if [ $SILENT_RUNNING -eq 0 ]
 then
     read -p "Input user id [$USER_ID]: " INPUT
-    [[ -z "$INPUT" ]] && USER_ID=$INPUT
+    [[ -n "$INPUT" ]] && USER_ID=$INPUT
 
     read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
-    [[ -z "$INPUT" ]] && MEASUREMENT=$INPUT
+    [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
 fi
 
 # do the actual creation of the files
