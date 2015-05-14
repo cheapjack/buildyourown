@@ -1,0 +1,11 @@
+#!/bin/bash
+
+USER_ID=memorable_string_of_words
+OUTPUT_FOLDER=hands/$USER_ID
+MEASUREMENT=63
+
+mkdir -p $OUTPUT_FOLDER
+openscad -o $OUTPUT_FOLDER/cuff.stl -D measurement=$MEASUREMENT cuff.scad
+openscad -o $OUTPUT_FOLDER/palm.stl -D measurement=$MEASUREMENT palm.scad
+
+
