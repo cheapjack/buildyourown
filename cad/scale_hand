@@ -1,7 +1,6 @@
 #!/bin/bash
 
 USER_ID=memorable_string_of_words
-OUTPUT_FOLDER=hands/$USER_ID
 INPUT_FOLDER=src/
 MEASUREMENT=63
 SILENT_RUNNING=0
@@ -42,6 +41,8 @@ then
     read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
 fi
+
+OUTPUT_FOLDER=hands/$USER_ID
 
 # do the actual creation of the files
 mkdir -p $OUTPUT_FOLDER
