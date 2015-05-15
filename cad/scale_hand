@@ -19,7 +19,7 @@ while getopts hqfm:u:o:b:i: OPT; do
 -m <measurement>
         Input a cross-knuckles measurement in mm
 -u <user_id>
-        Input a user_id
+        Input a User_ID
 -o  <output_folder>
         Specify an output folder
 -b  <build_dir>
@@ -56,7 +56,7 @@ done
 # ask for input if not in silent running mode
 if [ $SILENT_RUNNING -eq 0 ]
 then
-    read -p "Input user id [$USER_ID]: " INPUT
+    read -p "Input User_ID [$USER_ID]: " INPUT
     [[ -n "$INPUT" ]] && USER_ID=$INPUT
 
     read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
@@ -67,11 +67,11 @@ if [ -d $BUILD_DIR/$USER_ID ] && [ $FORCE == 0 ]
 then
     if [ $SILENT_RUNNING == 1 ] 
     then
-        echo "Username already exists. Use [-f] to overwrite."
+        echo "User_ID already exists. Use [-f] to overwrite."
         exit 1
     fi
 
-    read -p "This username already exists. Overwrite? [yN] " ANSWER
+    read -p "This User_ID already exists. Overwrite? [yN] " ANSWER
     case $ANSWER in
         [yY]*) 
             FORCE = 1
