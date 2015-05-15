@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USER_ID=memorable_string_of_words
-INPUT_FOLDER=src/
+INPUT_FOLDER=src
 MEASUREMENT=63
 SILENT_RUNNING=0
 
@@ -44,10 +44,16 @@ fi
 
 OUTPUT_FOLDER=hands/$USER_ID
 
-# do the actual creation of the files
+# make the directory in case it doesn't exist
 mkdir -p $OUTPUT_FOLDER
-#openscad -o $OUTPUT_FOLDER/cuff.stl -D measurement=$MEASUREMENT $INPUT_FOLDER/cuff.scad
 
-openscad -o $OUTPUT_FOLDER/raptor_2.0_finger_pin.stl -D measurement=$MEASUREMENT $INPUT_FOLDER/raptor_2.0_finger_pin.scad
-
-
+# do the actual creation of the files
+for I in $INPUT_FOLDER/*.stl
+do 
+    IN=$(echo $I | sed "s:stl:scad:")
+    OUT=$(echo "$I" | sed "s:$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
+    echo -n $IN
+    echo -n ' -> '
+    echo $OUT
+    openscad -o $OUT -D measurement=$MEASUREMENT $IN
+done
