@@ -1,21 +1,39 @@
 #!/bin/bash
 
-USER_ID=memorable_string_of_words
+USER_ID=userid
+BUILD_DIR=hands
 INPUT_FOLDER=src
 MEASUREMENT=63
 SILENT_RUNNING=0
-
-USAGE="Usage: `basename $0` [-h] [-q] [-m measurement] [-u user_id] [-o output_folder] [-i input_folder] "
+FORCE=0
 
 #Parse the command line options
-while getopts hqm:u:o:i: OPT; do 
+while getopts hqfm:u:o:b:i: OPT; do 
     case "$OPT" in 
         h)
-            echo $USAGE
+            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] 
+
+-h      Show this help and exit
+-q      Quiet, don't ask for input
+-f      Force overwrite of existing files
+-m <measurement>
+        Input a cross-knuckles measurement in mm
+-u <user_id>
+        Input a user_id
+-o  <output_folder>
+        Specify an output folder
+-b  <build_dir>
+        Specifiy an alternative build directory root
+-i  <input_folder>
+        Specify an input folder"
             exit 0
             ;;
         q)
             SILENT_RUNNING=1
+            ;;
+
+        f)
+            FORCE=1
             ;;
         m)
             MEASUREMENT=$OPTARG
@@ -25,6 +43,9 @@ while getopts hqm:u:o:i: OPT; do
             ;;
         o)
             OUTPUT_FOLDER=$OPTARG
+            ;;
+        b)
+            BUILD_DIR=$OPTARG
             ;;
         i)
             INPUT_FOLDER=$OPTARG
@@ -42,7 +63,33 @@ then
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
 fi
 
-OUTPUT_FOLDER=hands/$USER_ID
+if [ -d $BUILD_DIR/$USER_ID ] && [ $FORCE == 0 ] 
+then
+    if [ $SILENT_RUNNING == 1 ] 
+    then
+        echo "Username already exists. Use [-f] to overwrite."
+        exit 1
+    fi
+
+    read -p "This username already exists. Overwrite? [yN] " ANSWER
+    case $ANSWER in
+        [yY]*) 
+            FORCE = 1
+            break
+            ;;
+        *) 
+            echo "Not overwritten."
+            exit 1
+            ;;
+    esac
+fi
+
+if [ $FORCE == 1 ] 
+then 
+    rm -r $BUILD_DIR/$USER_ID/
+fi
+
+OUTPUT_FOLDER=$BUILD_DIR/$USER_ID
 
 # make the directory in case it doesn't exist
 mkdir -p $OUTPUT_FOLDER
