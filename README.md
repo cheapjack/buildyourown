@@ -1,4 +1,7 @@
 # DesktopProsthetics
+### 4th June - 31st August 2015 at [FACT](http://fact.co.uk/projects/build-your-own-tools-for-sharing.aspx?when=futureevents)
+**Gallery 1, FACT, 88 Wood Street, Liverpool, L1 4DQ**
+
 ![image](RaptorHandBeingWorn.jpg)
 Image Copyright Jason Abbott.
 ### Copy:
