@@ -77,7 +77,6 @@ then
     case $ANSWER in
         [yY]*) 
             FORCE=1
-            break
             ;;
         *) 
             echo "Not overwritten."
