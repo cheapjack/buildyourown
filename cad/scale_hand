@@ -97,8 +97,8 @@ mkdir -p $OUTPUT_FOLDER
 # do the actual creation of the files
 for I in $INPUT_FOLDER/*.stl
 do 
-    IN=$(echo $I | sed "s:stl:scad:")
-    OUT=$(echo "$I" | sed "s:$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
+    IN=$(echo $I | sed "s:stl$:scad:")
+    OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
     echo -n $IN
     echo -n ' -> '
     echo $OUT
