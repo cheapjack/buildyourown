@@ -63,7 +63,9 @@ then
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
 fi
 
-if [ -d $BUILD_DIR/$USER_ID ] && [ $FORCE == 0 ] 
+OUTPUT_FOLDER=$BUILD_DIR/$USER_ID
+
+if [ -d $OUTPUT_FOLDER ] && [ $FORCE == 0 ] 
 then
     if [ $SILENT_RUNNING == 1 ] 
     then
@@ -74,7 +76,7 @@ then
     read -p "This User_ID already exists. Overwrite? [yN] " ANSWER
     case $ANSWER in
         [yY]*) 
-            FORCE = 1
+            FORCE=1
             break
             ;;
         *) 
@@ -86,10 +88,8 @@ fi
 
 if [ $FORCE == 1 ] 
 then 
-    rm -r $BUILD_DIR/$USER_ID/
+    rm -r $OUTPUT_FOLDER
 fi
-
-OUTPUT_FOLDER=$BUILD_DIR/$USER_ID
 
 # make the directory in case it doesn't exist
 mkdir -p $OUTPUT_FOLDER
