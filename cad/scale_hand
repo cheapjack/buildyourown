@@ -1,0 +1,105 @@
+#!/bin/bash
+
+USER_ID=userid
+BUILD_DIR=hands
+INPUT_FOLDER=src
+MEASUREMENT=63
+SILENT_RUNNING=0
+FORCE=0
+
+#Parse the command line options
+while getopts hqfm:u:o:b:i: OPT; do 
+    case "$OPT" in 
+        h)
+            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] 
+
+-h      Show this help and exit
+-q      Quiet, don't ask for input
+-f      Force overwrite of existing files
+-m <measurement>
+        Input a cross-knuckles measurement in mm
+-u <user_id>
+        Input a User_ID
+-o  <output_folder>
+        Specify an output folder
+-b  <build_dir>
+        Specifiy an alternative build directory root
+-i  <input_folder>
+        Specify an input folder"
+            exit 0
+            ;;
+        q)
+            SILENT_RUNNING=1
+            ;;
+
+        f)
+            FORCE=1
+            ;;
+        m)
+            MEASUREMENT=$OPTARG
+            ;;
+        u)
+            USER_ID=$OPTARG
+            ;;
+        o)
+            OUTPUT_FOLDER=$OPTARG
+            ;;
+        b)
+            BUILD_DIR=$OPTARG
+            ;;
+        i)
+            INPUT_FOLDER=$OPTARG
+            ;;
+    esac
+done
+
+# ask for input if not in silent running mode
+if [ $SILENT_RUNNING -eq 0 ]
+then
+    read -p "Input User_ID [$USER_ID]: " INPUT
+    [[ -n "$INPUT" ]] && USER_ID=$INPUT
+
+    read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
+    [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
+fi
+
+OUTPUT_FOLDER=$BUILD_DIR/$USER_ID
+
+if [ -d $OUTPUT_FOLDER ] && [ $FORCE == 0 ] 
+then
+    if [ $SILENT_RUNNING == 1 ] 
+    then
+        echo "User_ID already exists. Use [-f] to overwrite."
+        exit 1
+    fi
+
+    read -p "This User_ID already exists. Overwrite? [yN] " ANSWER
+    case $ANSWER in
+        [yY]*) 
+            FORCE=1
+            ;;
+        *) 
+            echo "Not overwritten."
+            exit 1
+            ;;
+    esac
+fi
+
+if [ $FORCE == 1 ] 
+then 
+    rm -r $OUTPUT_FOLDER
+fi
+
+# make the directory in case it doesn't exist
+mkdir -p $OUTPUT_FOLDER
+
+# do the actual creation of the files
+for I in $INPUT_FOLDER/*.stl
+do 
+    IN=$(echo $I | sed "s:stl$:scad:")
+    OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
+    echo -n $IN
+    echo -n ' -> '
+    echo $OUT
+    openscad -o $OUT -D measurement=$MEASUREMENT $IN
+done
