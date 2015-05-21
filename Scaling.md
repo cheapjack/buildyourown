@@ -14,10 +14,10 @@ The main measurement used in sizing the Raptor Reloaded is the width of the reci
 
 The Raptor Reloaded requires some additional hardware to assemble, most of which can be sourced from the Hardware Sources page on the e-NABLE website.
 
-4ft Velcro, double-sided (2” wide)
-8ft Non-elastic nylon cord, 0.9mm-1.0mm
-5ft Flexible elastic cord
-5x Tensioner screws (*it's no clear which size these should be*) 
-4x Palm velcro attachment screws
-12" (305mm) Firm Foam Padding (5 ¾” wide)
-5x Lee Tippi Micro Gel Fingertip Grips (optional)
+ * 4ft Velcro, double-sided (2” wide)
+ * 8ft Non-elastic nylon cord, 0.9mm-1.0mm
+ * 5ft Flexible elastic cord
+ * 5x Tensioner screws (*it's no clear which size these should be*) 
+ * 4x Palm velcro attachment screws
+ * 12" (305mm) Firm Foam Padding (5 ¾” wide)
+ * 5x Lee Tippi Micro Gel Fingertip Grips (optional)
