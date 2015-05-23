@@ -32,6 +32,10 @@ See the "Q: What can these 3D printed hands be used for?" question in the [Enabl
 
 By working with [Reach](http://reach.org.uk/), the association for children with upper limb deficiency, we'll be helping a number of children (primarily) from the North-West and East Anglia.  In addition, the exhibition will raise awareness within the Reach community and the general public about some of the more practical uses for 3d printing.
 
+The main limit to who could get a hand comes from the size of prints we can produce on these particular 3D printers.  It should work for hands up to 120mm across the knuckles, which will cover most adult hand sizes too.
+
+For this project, we're focusing on the Raptor Reloaded design.  This requires the user to have a wrist in order for it to fit properly.  The wider Enabling the Future project has a [greater selection of designs to cater for other needs](http://enablingthefuture.org/upper-limb-prosthetics/).
+
 ### Is this a project DoES Liverpool is looking to expand?
 
 DoESLiverpool like many makerspaces and hackspaces, as an organisation do not do projects in a sense, we simply help our community to realise their projects with the facilities we have. Our community is essentially anyone who wants to do something with us. 
