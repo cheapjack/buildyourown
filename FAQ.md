@@ -28,6 +28,14 @@ In addition to the plastic parts there are a number of metal screws and nuts, so
 
 See the "Q: What can these 3D printed hands be used for?" question in the [Enabling the Future Media FAQ](http://enablingthefuture.org/faqs/media-faq/)
 
+### Health and Safety Statement
+
+*e-NABLE Device Safety Guidelines Statement*
+
+"Based on preliminary testing and observations on the functionality and capabilities of our experimental 3D printed prosthetic devices it is felt that they are currently not safe for operation of heavy machinery, tools, equipment, and vehicles due to low grip strength development. These prosthetic devices have shown, however, to provide some functionality for gross grasp activities of light and pliable objects, but it is in no way a substitute for a fully functioning hand. In addition, we don’t recommend the use of our experimental 3D printed prosthetic devices for small children (i.e., under 3 years of age) due to greater fall rate and the need of sensory input through oral stimulation. Furthermore, it is unknown if our experimental 3D printed prosthetic devices are able to sustain a small child’s bite without breaking. Please review and consider the following recommendations and precautions regarding the 3D printed prosthetic device"
+
+By taking part in this project and using a hand you agree to follow the [detailed Safety Guidelines here](http://enablingthefuture.org/build-a-hand/safety-guidelines/)
+
 ### Who will be helped through this project?
 
 By working with [Reach](http://reach.org.uk/), the association for children with upper limb deficiency, we'll be helping a number of children (primarily) from the North-West and East Anglia.  In addition, the exhibition will raise awareness within the Reach community and the general public about some of the more practical uses for 3d printing.
