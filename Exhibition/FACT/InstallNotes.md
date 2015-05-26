@@ -1,7 +1,5 @@
 ##Install Notes
 
-###Install vitrine work Tuesday 2nd June 2015
-
 ###Install printers Wednesday 3rd June 2015
 
 *List of items to bring into FACT*
