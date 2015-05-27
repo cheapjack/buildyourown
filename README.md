@@ -12,13 +12,13 @@ Image Copyright Jason Abbott.
 
 ###Over the course of the exhibition FACT Gallery Assistants and DoESLiverpool will assist the public in testing and building 3D printed prosthetic devices. The public will have the opportunity to play, experiment and understand what prosthetics are and how access to rapid prototyping and open source digital making tools can help people make the world the way they want it.
 
-### Information:
-Project mgmt and help files for 3D printed prosthetic hand project
+## Information on this Repository:
 
-This repo has 
+Project management, help and files for the 3D printed prosthetic hand project
+* *Most questions* [answered on our Frequently Asked Questions Page](https://github.com/cheapjack/buildyourown/blob/master/FAQ.md) which is being updated as needs arise.
 * [Issues](https://github.com/cheapjack/buildyourown/issues "github issues for the project") to aid @cheapjack @amcewen and @defproc management of the project and information
 * [copy as README.md files](https://github.com/cheapjack/buildyourown/tree/master/events) for publicity in the events folder
-* Other useful info like model parts
+* Other useful information and files like model parts
 
 We are also collecting related information - links, pictures, etc. - over on the [Desktop Prosthetics tumblr](http://desktopprosthetics.tumblr.com/)
 
