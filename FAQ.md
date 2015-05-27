@@ -28,7 +28,7 @@ In addition to the plastic parts there are a number of metal screws and nuts, so
 
 See the "Q: What can these 3D printed hands be used for?" question in the [Enabling the Future Media FAQ](http://enablingthefuture.org/faqs/media-faq/)
 
-### Health and Safety Statement
+### Is it safe?
 
 *e-NABLE Device Safety Guidelines Statement*
 
@@ -71,6 +71,10 @@ We've a list of further ways of getting involved if you have not been able to be
 * Other kinds of making space with some public access, [Fab Labs Map](http://www.fablabsuk.co.uk/making-spaces-in-the-uk/)
 * e-NABLE, [Enabling The Future](http://enablingthefuture.org/) project whose designs we are using and modifying have a system to help pair people with making spaces
 * [Reach](http://www.reach.org.uk/) in the North West
+
+### When and Where is it Touring to?
+
+*Build Your Own* and *DesktopProsthetics* is touring to [Norwich Castle Museum & Art Gallery](http://www.museums.norfolk.gov.uk/Visit_Us/Norwich_Castle/index.htm) from *3 October 2015 to 3 January 2016*. For that time the project will be supported by [Norwich Hackspace](http://www.theshiftnorwich.org.uk/norwich-hackspace.html) not DoESLiverpool alongside [Norfolk Museums Service](http://www.museums.norfolk.gov.uk/) and the [Crafts Council](http://www.craftscouncil.org.uk/what-we-do/build-your-own/)
 
 ### What limits are there, if any, with 3D printing?
 
