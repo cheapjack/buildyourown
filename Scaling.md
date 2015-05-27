@@ -6,7 +6,7 @@ The main measurement used in sizing the Raptor Reloaded is the width of the reci
 
  * PLA (or ABS, PET, Nylon)
  * 0.2mm layers
- * 2 shells
+ * 0.8mm shell thickness (2 shells)
  * 35% infill
  * Active cooling fan on
 
