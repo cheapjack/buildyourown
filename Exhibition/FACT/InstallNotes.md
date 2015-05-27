@@ -19,3 +19,13 @@
  * [ ] Cutting mat
  * [ ] Vitrine vinyl
  * [ ] DoES Business cards and stickers
+ * [ ] Supported by Ultimaker sign
+ * [ ] Some kind of workflow FAQ for Gallery Guides
+ * [ ] Application tape and squeedgy for vinyl
+ * [ ] Cut vinyl for sub plinths
+ * [ ] Vitrines (in FACT)
+ * [ ] Part Storage
+ * [ ] stickers and brown paper pag from HomeBargains
+ * [ ] Print for e-NABLE Health & Safety 
+
+ 
