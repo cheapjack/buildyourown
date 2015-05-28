@@ -133,3 +133,34 @@ do
         openscad -o $OUT -D measurement=$MEASUREMENT $IN
     fi
 done
+
+
+# produce the multiple files that are needed to make printing easier
+# to use this correctly, call:
+#       multiple_copies search_string multiples
+# e.g.
+#       multiple_copies "fingertip" 5
+function multiple_copies {
+    for I in $OUTPUT_FOLDER/*.stl
+    do
+        SEARCH=$1
+        MULTIPLE=$2
+        J=1
+        if echo $I | grep -c -m 1 $SEARCH
+        then
+            while (($J<=$MULTIPLE))
+            do
+                cp $I $(echo $I | sed "s:\.stl$:-$J\.st:")
+                let J++
+            done
+            rm $I
+        fi
+    done
+}
+
+multiple_copies "knuckle" 2
+multiple_copies "proximal" 5
+multiple_copies "finger_pin" 5
+multiple_copies "fingertip" 5
+multiple_copies "wrist_pin" 2
+multiple_copies "tensioner_pin" 5
