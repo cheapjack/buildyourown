@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USER_ID=userid
+USER_ID=$(./hipstergen)
 BUILD_DIR=hands
 INPUT_FOLDER=src
 MEASUREMENT=63
