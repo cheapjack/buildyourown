@@ -6,18 +6,21 @@ INPUT_FOLDER=src
 MEASUREMENT=63
 SILENT_RUNNING=0
 FORCE=0
+HANDED_INVERSE=left
 
 #Parse the command line options
-while getopts hqfm:u:o:b:i: OPT; do 
+while getopts hqfm:lru:o:b:i: OPT; do 
     case "$OPT" in 
         h)
-            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] 
+            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-l|r][-u <user_id>] [-o <output_folder>] [-i <input_folder>] 
 
 -h      Show this help and exit
 -q      Quiet, don't ask for input
 -f      Force overwrite of existing files
 -m <measurement>
         Input a cross-knuckles measurement in mm
+-(l|r)
+        Left or Right hand
 -u <user_id>
         Input a User_ID
 -o  <output_folder>
@@ -37,6 +40,12 @@ while getopts hqfm:u:o:b:i: OPT; do
             ;;
         m)
             MEASUREMENT=$OPTARG
+            ;;
+        l)
+            HANDED_INVERSE=right
+            ;;
+        r)
+            HANDED_INVERSE=left
             ;;
         u)
             USER_ID=$OPTARG
@@ -98,8 +107,14 @@ for I in $INPUT_FOLDER/*.stl
 do 
     IN=$(echo $I | sed "s:stl$:scad:")
     OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
-    echo -n $IN
-    echo -n ' -> '
-    echo $OUT
-    openscad -o $OUT -D measurement=$MEASUREMENT $IN
+    # test to see we don't have any handed items that we don't want
+    # i.e. don't do anything if we match the opposite of the hand 
+    # we want in the filename
+    if echo $IN | grep -c -v -m 1 $HANDED_INVERSE 
+    then
+        echo -n $IN
+        echo -n ' -> '
+        echo $OUT
+        openscad -o $OUT -D measurement=$MEASUREMENT $IN
+    fi
 done
