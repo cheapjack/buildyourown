@@ -7,6 +7,7 @@ MEASUREMENT=63
 SILENT_RUNNING=0
 FORCE=0
 HANDED_INVERSE=left
+HAND=RIGHT
 
 #Parse the command line options
 while getopts hqfm:lru:o:b:i: OPT; do 
@@ -42,13 +43,15 @@ while getopts hqfm:lru:o:b:i: OPT; do
             MEASUREMENT=$OPTARG
             ;;
         l)
+            HAND=LEFT
             HANDED_INVERSE=right
             ;;
         r)
+            HAND=RIGHT
             HANDED_INVERSE=left
             ;;
         u)
-            USER_ID=$OPTARG
+            USER_ID=$O-cim1 true falsePTARG
             ;;
         o)
             OUTPUT_FOLDER=$OPTARG
@@ -67,6 +70,18 @@ if [ $SILENT_RUNNING -eq 0 ]
 then
     read -p "Input User_ID [$USER_ID]: " INPUT
     [[ -n "$INPUT" ]] && USER_ID=$INPUT
+
+    read -p "Which side hand should we generate? [$HAND|$HANDED_INVERSE]: " INPUT
+    case $INPUT in 
+        [lL]*)
+            HAND=LEFT
+            HAND_INVERSE=right
+            ;;
+        [rR]*)
+            HAND=RIGHT
+            HAND_INVERSE=left
+            ;;
+    esac
 
     read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
