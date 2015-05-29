@@ -1,23 +1,27 @@
 #!/bin/bash
 
-USER_ID=userid
+USER_ID=$(./hipstergen)
 BUILD_DIR=hands
 INPUT_FOLDER=src
 MEASUREMENT=63
 SILENT_RUNNING=0
 FORCE=0
+HANDED_INVERSE=left
+HAND=RIGHT
 
 #Parse the command line options
-while getopts hqfm:u:o:b:i: OPT; do 
+while getopts hqfm:lru:o:b:i: OPT; do 
     case "$OPT" in 
         h)
-            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] 
+            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-l|r][-u <user_id>] [-o <output_folder>] [-i <input_folder>] 
 
 -h      Show this help and exit
 -q      Quiet, don't ask for input
 -f      Force overwrite of existing files
 -m <measurement>
         Input a cross-knuckles measurement in mm
+-(l|r)
+        Left or Right hand
 -u <user_id>
         Input a User_ID
 -o  <output_folder>
@@ -38,8 +42,16 @@ while getopts hqfm:u:o:b:i: OPT; do
         m)
             MEASUREMENT=$OPTARG
             ;;
+        l)
+            HAND=LEFT
+            HANDED_INVERSE=right
+            ;;
+        r)
+            HAND=RIGHT
+            HANDED_INVERSE=left
+            ;;
         u)
-            USER_ID=$OPTARG
+            USER_ID=$O-cim1 true falsePTARG
             ;;
         o)
             OUTPUT_FOLDER=$OPTARG
@@ -58,6 +70,18 @@ if [ $SILENT_RUNNING -eq 0 ]
 then
     read -p "Input User_ID [$USER_ID]: " INPUT
     [[ -n "$INPUT" ]] && USER_ID=$INPUT
+
+    read -p "Which side hand should we generate? [$HAND|$HANDED_INVERSE]: " INPUT
+    case $INPUT in 
+        [lL]*)
+            HAND=LEFT
+            HAND_INVERSE=right
+            ;;
+        [rR]*)
+            HAND=RIGHT
+            HAND_INVERSE=left
+            ;;
+    esac
 
     read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
@@ -98,8 +122,45 @@ for I in $INPUT_FOLDER/*.stl
 do 
     IN=$(echo $I | sed "s:stl$:scad:")
     OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
-    echo -n $IN
-    echo -n ' -> '
-    echo $OUT
-    openscad -o $OUT -D measurement=$MEASUREMENT $IN
+    # test to see we don't have any handed items that we don't want
+    # i.e. don't do anything if we match the opposite of the hand 
+    # we want in the filename
+    if echo $IN | grep -c -v -m 1 $HANDED_INVERSE 
+    then
+        echo -n $IN
+        echo -n ' -> '
+        echo $OUT
+        openscad -o $OUT -D measurement=$MEASUREMENT $IN
+    fi
 done
+
+
+# produce the multiple files that are needed to make printing easier
+# to use this correctly, call:
+#       multiple_copies search_string multiples
+# e.g.
+#       multiple_copies "fingertip" 5
+function multiple_copies {
+    for I in $OUTPUT_FOLDER/*.stl
+    do
+        SEARCH=$1
+        MULTIPLE=$2
+        J=1
+        if echo $I | grep -c -m 1 $SEARCH
+        then
+            while (($J<=$MULTIPLE))
+            do
+                cp $I $(echo $I | sed "s:\.stl$:-$J\.st:")
+                let J++
+            done
+            rm $I
+        fi
+    done
+}
+
+multiple_copies "knuckle" 2
+multiple_copies "proximal" 5
+multiple_copies "finger_pin" 5
+multiple_copies "fingertip" 5
+multiple_copies "wrist_pin" 2
+multiple_copies "tensioner_pin" 5
