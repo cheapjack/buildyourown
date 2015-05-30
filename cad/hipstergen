@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# generate a two-word id from the wordlist
+
+WORDLIST="wordlist"
+
+HIPSTER1=$(sort -R $WORDLIST | head -n 1)
+HIPSTER2=$(sort -R $WORDLIST | head -n 1)
+
+echo "$HIPSTER1-$HIPSTER2"

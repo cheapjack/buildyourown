@@ -1,0 +1,63 @@
+#!/bin/bash
+
+# An easy way of generating a wordlist for creating automatic user-id generation
+# using:
+#       sort -R /usr/share/dict/words | head -n 1
+# A more useful list (fewer removed words) was genenerated with:
+#       egrep -x '\w{3,6}' /usr/share/dict/words > dict
+    
+FILE="/usr/share/dict/words"
+NUMBER_OF_WORDS=10
+OVERWRITE=0
+WORDFILE="wordlist"
+WORDCOUNT=1
+
+while getopts n:i:o:xh OPT; do 
+    case "$OPT" in 
+        n)
+            NUMBER_OF_WORDS=$OPTARG
+            ;;
+        i)
+            FILE=$OPTARG
+            ;;
+        o)
+            WORDFILE=$OPTARG
+            ;;
+        x)
+            OVERWRITE=1
+            ;;
+        h)
+            echo "Usage: `basename $0` [-h] [-n <number of words> ($NUMBER_OF_WORDS)] [-i <input wordlist>] [-o <output file>] [-x]"
+            exit 0
+            ;;
+    esac
+done
+
+if [ $OVERWRITE -gt 0 ]
+then
+    rm $WORDFILE
+fi
+
+while [ "$WORDCOUNT" -le $NUMBER_OF_WORDS ]
+do
+    WORD=$(sort -R $FILE | head -n 1) # this is actually quite slow for /usr/share/dict/words!
+    read -p "Add \"$WORD\"? (Yn): " INPUT
+    case $INPUT in 
+        [yY]*)
+            ADD_IT=1
+            ;;
+        [nN]*) 
+            ADD_IT=0
+            ;;
+        *)
+            ADD_IT=1
+            ;;
+    esac
+    if [ $ADD_IT -eq 1 ]
+    then
+        echo $WORD >> $WORDFILE
+        echo "added $WORDCOUNT of $NUMBER_OF_WORDS: $WORD"
+        WORDCOUNT=`expr $WORDCOUNT + 1`
+    fi
+done
+
