@@ -1,4 +1,4 @@
-Video for Raptor hand original design
+Refer to Video for Raptor hand original design and then more detailed information for the Raptor-Reloaded hand DesktopProsthetics is using
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=5HVwC3RnWXk
 " target="_blank"><img src="http://img.youtube.com/vi/5HVwC3RnWXk/0.jpg" 
