@@ -58,18 +58,18 @@ If a group grows and develops around the activity in the exhibition then that gr
 
 **DesktopProsthetics** is a project with FACT within an exhibition: and like other things you can make at DoESLiverpool it's not a service and it can be hard to sustain and help everyone interested in a hand, so we cannot guarantee we can print a hand for the people who need them. 
 
-But we can help point people in the right direction and help them **do it themselves** which is what the project is about. However we'd love to see a community grow around this project but it will take new people to drive it. DoES Liverpool do have regular **Maker Nights** and **Maker Days** where people can learn more about DoES facilities, meet other people and this is a good start. We won't be taking details of people who have not been able to take part in the exhibition but we are planning on a Maker Day in the future (to be confirmed) particularly about printing prosthetics so join the [DoES Liverpool Google Group](http://doesliverpool.com/get-involved/) to stay informed. 
+But we can help point people in the right direction and help them **do it themselves** which is what the project is about. However we'd love to see a community grow around this project but it will take new people to drive it. DoES Liverpool do have regular **Maker Nights** and **Maker Days** where people can learn more about DoES facilities, meet other people and this is a good start. We won't be taking details of people who have not been able to take part in the exhibition but we are having a **DoES does Prosthetics Day** at DoES Liverpool **Saturday 15th August 2015** Details to follow. This is particularly about printing prosthetics and how people can get involved in e-NABLE and an interest group in Liverpool, so join the [DoES Liverpool Google Group](http://doesliverpool.com/get-involved/) to stay informed. 
 
 We've a list of further ways of getting involved if you have not been able to be measured at the measuring workshop and print a hand.
 
 * Visit the exhibition at FACT **4th June - 31st August 2015 at [FACT](http://fact.co.uk/projects/build-your-own-tools-for-sharing.aspx?when=futureevents)**
 **Gallery 1, FACT, 88 Wood Street, Liverpool, L1 4DQ**
+* Join the community **meetup** at a **DoES does Prosthetics Day** at DoES Liverpool **Saturday 15th August 2015** Details to follow
 * Look out for **Maker Nights** and **Maker Days** on the [DoESLiverpool Calendar](http://doesliverpool.com/calendar/) 
-* Look out for a future community **meetup** at a **Maker Day** at DoES Liverpool (Date TBC)
 * Nesta [Makerspace Overview and Map](http://www.nesta.org.uk/blog/top-findings-open-dataset-uk-makerspaces)
 * Look at the [Hackerspace List](https://wiki.hackerspaces.org/List_of_Hacker_Spaces) to find Maker Spaces in the North https://wiki.hackerspaces.org/List_of_Hacker_Spaces
 * Other kinds of making space with some public access, [Fab Labs Map](http://www.fablabsuk.co.uk/making-spaces-in-the-uk/)
-* e-NABLE, [Enabling The Future](http://enablingthefuture.org/) project whose designs we are using and modifying have a system to help pair people with making spaces
+* Contact e-NABLE directly, [Enabling The Future](http://enablingthefuture.org/) the glogal project whose designs we are using and modifying have a system to help pair people with making spaces
 * [Reach](http://www.reach.org.uk/) in the North West
 
 ### When and Where is it Touring to?
