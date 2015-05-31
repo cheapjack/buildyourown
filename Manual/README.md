@@ -36,13 +36,13 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
 ![5](https://cloud.githubusercontent.com/assets/128456/7897597/20859080-06d9-11e5-8f9b-975aee17e6c4.png)
 
  * Insert finger pin, round 'snap' pin first
+
 ![1](https://cloud.githubusercontent.com/assets/128456/7897524/a3c154aa-06d6-11e5-9719-a3b6cce864ed.png)
 ![2](https://cloud.githubusercontent.com/assets/128456/7897558/ca2468a2-06d7-11e5-8b05-6fbb13b2679d.png)
 ![7](https://cloud.githubusercontent.com/assets/128456/7897617/d70439f6-06d9-11e5-959f-58de01bfa4d5.png)
 
  * Connect proximals to palm using knuckle pins, tap them in gently with a hammer
  * Connect thumb proximal to thumb joint on palm with thumb
-
  * Connect gauntlet to palm using the 2 wrist pins
  * Feed the unknotted end of the elastic into the passage in the knuckles
 
