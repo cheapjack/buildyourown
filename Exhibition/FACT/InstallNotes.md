@@ -16,6 +16,8 @@
  * [ ] Scalpel
  * [ ] Scalpel blades
  * [ ] Safety Glasses
+ * [ ] Replacements for tensioner threaded pins need wider head or washers
+ * [ ] New Self tapping screws for velcro
  * [ ] Power extensions for setup
  * [ ] Cutting mat
  * [ ] Vitrine vinyl
@@ -32,5 +34,6 @@
  * [ ] Supported by Ultimaker sign
  * [ ] Dremel for cleaning elastic/cord channels
  * [ ] Spare SD cards for transferring models
+ 
 
  
