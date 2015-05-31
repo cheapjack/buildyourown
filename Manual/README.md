@@ -22,17 +22,19 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
 
 
 ![3](https://cloud.githubusercontent.com/assets/128456/7897559/ca290b3c-06d7-11e5-973e-c7ed0ed94daf.png)
-![2](https://cloud.githubusercontent.com/assets/128456/7897558/ca2468a2-06d7-11e5-8b05-6fbb13b2679d.png)
-
- * Connect Proximals with Fingertips using Finger Pins
-    * Connect them first and ensure they are cleaned sufficiently to move loosely
+ * Connect Proximals with Fingertips
+    * Connect them first without pin and ensure they are cleaned sufficiently to move loosely
     * Prep elastic size, with enough length to run over end of palm. 
     * Melt ends with lighter to prevent fraying
     * Knot one end 
+    * Thread into the fingertip and loop back through to go through the proximal
 ![4](https://cloud.githubusercontent.com/assets/128456/7897560/ca296b90-06d7-11e5-9bf0-bbaf5200f3a9.png)
 
 ![5](https://cloud.githubusercontent.com/assets/128456/7897597/20859080-06d9-11e5-8f9b-975aee17e6c4.png)
-    * Insert finger pin, round 'snap' pin first
+
+* Insert finger pin, round 'snap' pin first
+
+![2](https://cloud.githubusercontent.com/assets/128456/7897558/ca2468a2-06d7-11e5-8b05-6fbb13b2679d.png)
 
 ![7](https://cloud.githubusercontent.com/assets/128456/7897617/d70439f6-06d9-11e5-959f-58de01bfa4d5.png)
  * Connect proximals to palm using knuckle pins, tap them in gently with a hammer
