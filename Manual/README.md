@@ -19,6 +19,10 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
  * 2 x Knuckle Pins
  * 5 x Proximals
  * 5 x Fingertips
+ * 2 x Wrist Caps
+ * Nylon cord
+ * Elastic
+ * Tensioner pins
 
 
 
@@ -44,16 +48,20 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
  * Connect proximals to palm using knuckle pins, tap them in gently with a hammer
  * Connect thumb proximal to thumb joint on palm with thumb
  * Connect gauntlet to palm using the 2 wrist pins
- * Feed the unknotted end of the elastic into the passage in the knuckles
+ * Feed the unknotted end of the elastic into the passage in the knuckles loop and loop back
 
 ![8](https://cloud.githubusercontent.com/assets/128456/7897688/96724fe2-06dc-11e5-9d4d-85de57866555.png)
 
  * Feed all the way through the palm channel, loop over and knot to provide quite a strong tension
+ * Connect the Palm with Gauntlet using the wrist pins and caps
+
+![6](https://cloud.githubusercontent.com/assets/128456/7897598/20abf9aa-06d9-11e5-89b6-a296a4aa3d06.png)
+
  * Now assemble the Retention clip and tensioner with pins
  * thread cord into palm to pull fingers
 
 *Steps incomplete needs work*
 
 ![9](https://cloud.githubusercontent.com/assets/128456/7897687/966d41dc-06dc-11e5-9e51-250d14f156d8.png)
-![6](https://cloud.githubusercontent.com/assets/128456/7897598/20abf9aa-06d9-11e5-89b6-a296a4aa3d06.png)
+
 
