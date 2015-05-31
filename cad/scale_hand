@@ -150,7 +150,7 @@ function multiple_copies {
         then
             while (($J<=$MULTIPLE))
             do
-                cp $I $(echo $I | sed "s:\.stl$:-$J\.st:")
+                cp $I $(echo $I | sed "s:\.stl$:-$J\.stl:")
                 let J++
             done
             rm $I
