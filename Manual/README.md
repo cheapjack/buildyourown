@@ -32,7 +32,7 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
  * Connect gauntlet to palm using the 2 wrist pins
  
  * Prep elastic size, melt ends with lighter to prevent fraying
- ![4](https://cloud.githubusercontent.com/assets/128456/7897560/ca296b90-06d7-11e5-9bf0-bbaf5200f3a9.png)
+![4](https://cloud.githubusercontent.com/assets/128456/7897560/ca296b90-06d7-11e5-9bf0-bbaf5200f3a9.png)
 ![5](https://cloud.githubusercontent.com/assets/128456/7897597/20859080-06d9-11e5-8f9b-975aee17e6c4.png)
     * Thread elastic through finger tip and proximal, if necessary detach from palm
 ![8](https://cloud.githubusercontent.com/assets/128456/7897688/96724fe2-06dc-11e5-9d4d-85de57866555.png)
