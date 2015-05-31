@@ -12,6 +12,7 @@
  * [ ] Calipers
  * [ ] Tweezers
  * [ ] Stanley Knife
+ * [ ] Cigarette Safety Lighter for elastic fraying
  * [ ] Scalpel
  * [ ] Scalpel blades
  * [ ] Safety Glasses
