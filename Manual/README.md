@@ -21,36 +21,30 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
  * 5 x Fingertips
 
 
-![3](https://cloud.githubusercontent.com/assets/128456/7897559/ca290b3c-06d7-11e5-973e-c7ed0ed94daf.png)
+
  * Connect Proximals with Fingertips
+![3](https://cloud.githubusercontent.com/assets/128456/7897559/ca290b3c-06d7-11e5-973e-c7ed0ed94daf.png)
     * Connect them first without pin and ensure they are cleaned sufficiently to move loosely
     * Prep elastic size, with enough length to run over end of palm. 
     * Melt ends with lighter to prevent fraying
     * Knot one end 
     * Thread into the fingertip and loop back through to go through the proximal
 ![4](https://cloud.githubusercontent.com/assets/128456/7897560/ca296b90-06d7-11e5-9bf0-bbaf5200f3a9.png)
-
 ![5](https://cloud.githubusercontent.com/assets/128456/7897597/20859080-06d9-11e5-8f9b-975aee17e6c4.png)
 
 * Insert finger pin, round 'snap' pin first
-
+![1](https://cloud.githubusercontent.com/assets/128456/7897524/a3c154aa-06d6-11e5-9719-a3b6cce864ed.png)
 ![2](https://cloud.githubusercontent.com/assets/128456/7897558/ca2468a2-06d7-11e5-8b05-6fbb13b2679d.png)
 
 ![7](https://cloud.githubusercontent.com/assets/128456/7897617/d70439f6-06d9-11e5-959f-58de01bfa4d5.png)
  * Connect proximals to palm using knuckle pins, tap them in gently with a hammer
  * Connect thumb proximal to thumb joint on palm with thumb
-![1](https://cloud.githubusercontent.com/assets/128456/7897524/a3c154aa-06d6-11e5-9719-a3b6cce864ed.png)
- * Connect gauntlet to palm using the 2 wrist pins
- 
 
-![5](https://cloud.githubusercontent.com/assets/128456/7897597/20859080-06d9-11e5-8f9b-975aee17e6c4.png)
-    * Thread elastic through finger tip and proximal, if necessary detach from palm
+ * Connect gauntlet to palm using the 2 wrist pins
+ * Feed the unknotted end of the elastic into the passage in the knuckles
 ![8](https://cloud.githubusercontent.com/assets/128456/7897688/96724fe2-06dc-11e5-9d4d-85de57866555.png)
+ * Feed all the way through the palm channel, loop over and knot to provide quite a strong tension
 ![9](https://cloud.githubusercontent.com/assets/128456/7897687/966d41dc-06dc-11e5-9e51-250d14f156d8.png)
-    * Knot the elastic, and re-thread to leave knot over knuckle joint
-    * Feed the unknotted end of the elastic into the passage in the knuckles
-    * Feed all the way through the palm channel, loop over and knot to provide quite a strong tension
-    
 
 ![6](https://cloud.githubusercontent.com/assets/128456/7897598/20abf9aa-06d9-11e5-89b6-a296a4aa3d06.png)
 
