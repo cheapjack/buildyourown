@@ -1,4 +1,6 @@
-Refer to Video for Raptor hand original design and then more detailed information for the Raptor-Reloaded hand DesktopProsthetics is using
+Refer to Video for Raptor hand original design and then follow more detailed information for the Raptor-Reloaded hand DesktopProsthetics is using below.
+
+* [ ] Manual complete
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=5HVwC3RnWXk
 " target="_blank"><img src="http://img.youtube.com/vi/5HVwC3RnWXk/0.jpg" 
@@ -18,21 +20,27 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
  * 5 x Proximals
  * 5 x Fingertips
 
-![1](https://cloud.githubusercontent.com/assets/128456/7897524/a3c154aa-06d6-11e5-9719-a3b6cce864ed.png)
+
 ![3](https://cloud.githubusercontent.com/assets/128456/7897559/ca290b3c-06d7-11e5-973e-c7ed0ed94daf.png)
 ![2](https://cloud.githubusercontent.com/assets/128456/7897558/ca2468a2-06d7-11e5-8b05-6fbb13b2679d.png)
 
  * Connect Proximals with Fingertips using Finger Pins
-    * Connect them first then insert finger pin round 'snap' pin first
-    * Ensure they are cleaned sufficiently to move loosely
- ![7](https://cloud.githubusercontent.com/assets/128456/7897617/d70439f6-06d9-11e5-959f-58de01bfa4d5.png)
+    * Connect them first and ensure they are cleaned sufficiently to move loosely
+    * Prep elastic size, with enough length to run over end of palm. 
+    * Melt ends with lighter to prevent fraying
+    * Knot one end 
+![4](https://cloud.githubusercontent.com/assets/128456/7897560/ca296b90-06d7-11e5-9bf0-bbaf5200f3a9.png)
+
+![5](https://cloud.githubusercontent.com/assets/128456/7897597/20859080-06d9-11e5-8f9b-975aee17e6c4.png)
+    * Insert finger pin, round 'snap' pin first
+
+![7](https://cloud.githubusercontent.com/assets/128456/7897617/d70439f6-06d9-11e5-959f-58de01bfa4d5.png)
  * Connect proximals to palm using knuckle pins, tap them in gently with a hammer
  * Connect thumb proximal to thumb joint on palm with thumb
- 
+![1](https://cloud.githubusercontent.com/assets/128456/7897524/a3c154aa-06d6-11e5-9719-a3b6cce864ed.png)
  * Connect gauntlet to palm using the 2 wrist pins
  
- * Prep elastic size, melt ends with lighter to prevent fraying
-![4](https://cloud.githubusercontent.com/assets/128456/7897560/ca296b90-06d7-11e5-9bf0-bbaf5200f3a9.png)
+
 ![5](https://cloud.githubusercontent.com/assets/128456/7897597/20859080-06d9-11e5-8f9b-975aee17e6c4.png)
     * Thread elastic through finger tip and proximal, if necessary detach from palm
 ![8](https://cloud.githubusercontent.com/assets/128456/7897688/96724fe2-06dc-11e5-9d4d-85de57866555.png)
