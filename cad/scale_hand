@@ -3,6 +3,7 @@
 USER_ID=$(./hipstergen)
 BUILD_DIR=hands
 INPUT_FOLDER=src
+ID_FOLDER=id
 MEASUREMENT=63
 SILENT_RUNNING=0
 FORCE=0
@@ -123,23 +124,28 @@ fi
 # make the directory in case it doesn't exist
 mkdir -p $OUTPUT_FOLDER
 
-echo "${yellow}Resizing STLs.${reset}"
+echo "${yellow}Resizing STLs… ${reset}"
 
 # do the actual creation of the files
 # test to see we don't have any handed items that we don't want
 # i.e. don't do anything if we match the opposite of the hand 
 # we want in the filename
-for I in $( find $INPUT_FOLDER -name '*.stl' -not -name "*$HANDED_INVERSE*")
+for I in $INPUT_FOLDER/*.stl
 do 
-    IN=$(echo $I | sed "s:stl$:scad:")
-    OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
-    echo -n $IN
-    echo -n ' -> '
-    echo $OUT
-    openscad -o $OUT -D 'measurement='$MEASUREMENT'' $IN
+    if echo $I | grep -c -v -m 1 $HANDED_INVERSE &>/dev/null
+    then 
+        IN=$(echo $I | sed "s:stl$:scad:")
+        OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
+        echo -n $IN
+        echo -n ' -> '
+        echo $OUT
+        openscad -o $OUT -D 'measurement='$MEASUREMENT'' $IN
+    fi
 done
 
-echo "${yellow}Generating multiples as necessary…${reset}"
+echo "${green}Done.${reset}"
+
+echo "${yellow}Generating multiples as necessary… ${reset}"
 
 # produce the multiple files that are needed to make printing easier
 # to use this correctly, call:
@@ -172,7 +178,9 @@ multiple_copies "fingertip" 5
 multiple_copies "wrist_pin" 2
 multiple_copies "tensioner_pin" 5
 
-echo "${yellow}Creating the plates…${reset}"
+echo "${green}Done.${reset}"
+
+echo -n "${yellow}Organising the parts into plate folders… ${reset}"
 
 # create the output folders, populate with a name stl and the required number
 PLATE[0]=0-prerequisites
@@ -181,7 +189,7 @@ PLATE[2]=2-proximal
 PLATE[3]=3-gauntlet
 PLATE[4]=4-palm
 PLATE[5]=5-tensioner
-PLATES=${#PLATES[@]}
+PLATES=5
 for I in {0..5}
 do 
     mkdir $OUTPUT_FOLDER/${PLATE[$I]}
@@ -206,3 +214,33 @@ plate_folder "palm" 4
 plate_folder "ten" 5
 plate_folder "pin" 5
 
+echo "${green}Done.${reset}"
+
+# generate the name tag (prerequisites, plate 0)
+echo "${yellow}Creating user-id tag.${reset}" 
+echo "${yellow}Generation of this STL may take a couple of minutes… ${reset}"
+
+openscad -o $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID.stl -D 'line1="'$USER_ID'"; bar_style="surround_text"; font="Linux Libertine O"' $INPUT_FOLDER/$ID_FOLDER/HD_Font_Keychain_v4_0.scad
+
+echo "${red}*****"
+echo "TODO: adding 6 hook copies to the prerequisites plate"
+echo "*****${reset}"
+
+echo -n "${yellow}Putting the the number tags in each plate… ${reset}"
+
+openscad -o $OUTPUT_FOLDER/$USER_ID.stl -D 't="'$USER_ID'"' $INPUT_FOLDER/$ID_FOLDER/user-id.scad
+
+# copy the tag number stls from the id folder to the correct plate folder.
+for I in {1..5}
+do
+    cp $INPUT_FOLDER/$ID_FOLDER/tag-$I.stl $OUTPUT_FOLDER/${PLATE[$I]}
+    cp $OUTPUT_FOLDER/$USER_ID.stl $OUTPUT_FOLDER/${PLATE[$I]}
+done
+
+rm $OUTPUT_FOLDER/$USER_ID.stl
+
+echo "${green}Done.${reset}"
+
+echo "${red}*****"
+echo "TODO: run Cura to plate up each batch (some user input required"
+echo "*****${reset}"
