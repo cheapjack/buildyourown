@@ -118,20 +118,17 @@ fi
 mkdir -p $OUTPUT_FOLDER
 
 # do the actual creation of the files
-for I in $INPUT_FOLDER/*.stl
+# test to see we don't have any handed items that we don't want
+# i.e. don't do anything if we match the opposite of the hand 
+# we want in the filename
+for I in $( find $INPUT_FOLDER -name '*.stl' -not -name "*$HANDED_INVERSE*")
 do 
     IN=$(echo $I | sed "s:stl$:scad:")
     OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
-    # test to see we don't have any handed items that we don't want
-    # i.e. don't do anything if we match the opposite of the hand 
-    # we want in the filename
-    if echo $IN | grep -c -v -m 1 $HANDED_INVERSE 
-    then
-        echo -n $IN
-        echo -n ' -> '
-        echo $OUT
-        openscad -o $OUT -D measurement=$MEASUREMENT $IN
-    fi
+    echo -n $IN
+    echo -n ' -> '
+    echo $OUT
+    openscad -o $OUT -D measurement=$MEASUREMENT $IN
 done
 
 
@@ -141,21 +138,18 @@ done
 # e.g.
 #       multiple_copies "fingertip" 5
 function multiple_copies {
-    for I in $OUTPUT_FOLDER/*.stl
-    do
-        SEARCH=$1
-        MULTIPLE=$2
-        J=1
-        if echo $I | grep -c -m 1 $SEARCH
-        then
+    SEARCH=$1
+    MULTIPLE=$2
+    for I in $(find $OUTPUT_FOLDER -name '*.stl' -name "*$SEARCH*")
+        do
+            J=1
             while (($J<=$MULTIPLE))
             do
                 cp $I $(echo $I | sed "s:\.stl$:-$J\.stl:")
                 let J++
             done
             rm $I
-        fi
-    done
+        done
 }
 
 multiple_copies "knuckle" 2
