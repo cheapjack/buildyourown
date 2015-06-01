@@ -9,6 +9,12 @@ FORCE=0
 HANDED_INVERSE=left
 HAND=RIGHT
 
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+blue=`tput setaf 4`
+reset=`tput sgr0`
+
 #Parse the command line options
 while getopts hqfm:lru:o:b:i: OPT; do 
     case "$OPT" in 
@@ -117,6 +123,8 @@ fi
 # make the directory in case it doesn't exist
 mkdir -p $OUTPUT_FOLDER
 
+echo "${yellow}Resizing STLs.${reset}"
+
 # do the actual creation of the files
 # test to see we don't have any handed items that we don't want
 # i.e. don't do anything if we match the opposite of the hand 
@@ -128,9 +136,10 @@ do
     echo -n $IN
     echo -n ' -> '
     echo $OUT
-    openscad -o $OUT -D measurement=$MEASUREMENT $IN
+    openscad -o $OUT -D 'measurement='$MEASUREMENT'' $IN
 done
 
+echo "${yellow}Generating multiples as necessary…${reset}"
 
 # produce the multiple files that are needed to make printing easier
 # to use this correctly, call:
@@ -141,15 +150,19 @@ function multiple_copies {
     SEARCH=$1
     MULTIPLE=$2
     for I in $(find $OUTPUT_FOLDER -name '*.stl' -name "*$SEARCH*")
+    do
+        J=1
+        while (($J<=$MULTIPLE))
         do
-            J=1
-            while (($J<=$MULTIPLE))
-            do
-                cp $I $(echo $I | sed "s:\.stl$:-$J\.stl:")
-                let J++
-            done
-            rm $I
+            OUTFILE=$(echo $I | sed "s:\.stl$:-$J\.stl:")
+            echo -n $I
+            echo -n " -> "
+            echo $OUTFILE
+            cp $I $OUTFILE
+            let J++
         done
+        rm $I
+    done
 }
 
 multiple_copies "knuckle" 2
@@ -158,3 +171,38 @@ multiple_copies "finger_pin" 5
 multiple_copies "fingertip" 5
 multiple_copies "wrist_pin" 2
 multiple_copies "tensioner_pin" 5
+
+echo "${yellow}Creating the plates…${reset}"
+
+# create the output folders, populate with a name stl and the required number
+PLATE[0]=0-prerequisites
+PLATE[1]=1-fingers
+PLATE[2]=2-proximal
+PLATE[3]=3-gauntlet
+PLATE[4]=4-palm
+PLATE[5]=5-tensioner
+PLATES=${#PLATES[@]}
+for I in {0..5}
+do 
+    mkdir $OUTPUT_FOLDER/${PLATE[$I]}
+done
+
+# move the file into each plate folder by name
+function plate_folder {
+    SEARCH=$1
+    PLATE_NO=$2
+    for I in $OUTPUT_FOLDER/*$SEARCH*
+    do 
+        [ -f $I ] && mv $I $OUTPUT_FOLDER/${PLATE[$PLATE_NO]} 
+    done
+}
+
+plate_folder "fingertip" 1
+plate_folder "pin_cap-1" 1
+plate_folder "proximal" 2
+plate_folder "pin_cap-2" 2
+plate_folder "gauntlet" 3
+plate_folder "palm" 4
+plate_folder "ten" 5
+plate_folder "pin" 5
+
