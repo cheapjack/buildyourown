@@ -9,7 +9,7 @@
  * [ ] Ultimaker Printers x 2
  * [ ] Printer consumables
  * [ ] Power Supplies, Boxes, Manuals and Ephemera
- * [ ] Calipers
+ * [ ] Calipers from DoES
  * [ ] Tweezers
  * [ ] Stanley Knife
  * [ ] Cigarette Safety Lighter for elastic fraying
@@ -32,7 +32,7 @@
  * [ ] Print for e-NABLE Health & Safety handouts and Liability forms
  * [ ] Tablet/ipad whatever to display complete stl model in browser something like [Jscad](http://openjscad.org/)
  * [ ] Supported by Ultimaker sign
- * [ ] Dremel for cleaning elastic/cord channels
+ * [ ] Dremel for cleaning elastic/cord channels??
  * [ ] Spare SD cards for transferring models
  
 
