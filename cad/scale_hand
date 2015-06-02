@@ -279,3 +279,32 @@ echo "${green}Done.${reset}"
 echo "${red}*****"
 echo "TODO: run Cura to plate up each batch (some user input required"
 echo "*****${reset}"
+
+echo "Semi-automatic plate generation requires"
+echo "    * Cura"
+echo "    * xclip"
+echo ""
+read -p "${yellow}Do you wish to generate plates with Cura? (Yn): " ANSWER
+case $ANSWER in 
+    [nN]*)
+        echo "${green}stl files are collected into folders per printing plate at $OUTPUT_FOLDER${reset}"
+        exit 0
+        ;;
+esac
+
+function plater {
+    PLATE_FILENAME=colour-$1-$USER_ID
+    echo "${yellow}The output file from Cura should be named ${blue}$PLATE_FILENAME.gcode${reset}"
+    echo "${yellow}And should be saved in ${blue}$OUTPUT_FOLDER${reset}"
+    read -p "Press ENTER to continue…" INPUT
+    echo $PLATE_FILENAME".gcode" | xclip -selection clipboard
+    cura $OUTPUT_FOLDER/${PLATE[$1]}/*.stl
+}
+
+for I in {0..5}
+do
+    plater $I
+done
+
+echo "${green}Plating finished${reset}"
+exit 0
