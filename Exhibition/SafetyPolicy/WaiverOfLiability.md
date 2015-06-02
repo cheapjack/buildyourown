@@ -16,7 +16,7 @@ You acknowledge that this Agreement is governed by UK law (without reference to 
 
 You have carefully read the foregoing provisions and understand their contents.
 
-Signed
+**Signed**
 
 
-Signature  ______________________  Print Name  ___________________________ Date:__________
+**Signature  ______________________  Print Name  ___________________________ Date:__________**
