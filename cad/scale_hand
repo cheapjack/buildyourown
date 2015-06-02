@@ -221,10 +221,12 @@ echo "${yellow}Creating user-id tag.${reset}"
 echo "${yellow}Generation of this STL may take a couple of minutes… ${reset}"
 
 openscad -o $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID.stl -D 'line1="'$USER_ID'"; bar_style="surround_text"; font="Linux Libertine O"' $INPUT_FOLDER/$ID_FOLDER/HD_Font_Keychain_v4_0.scad
+cp $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID.stl $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID-1.stl 
 
-echo "${red}*****"
-echo "TODO: adding 6 hook copies to the prerequisites plate"
-echo "*****${reset}"
+for I in $INPUT_FOLDER/$ID_FOLDER/tag_hook-*.stl
+do
+    cp $I $OUTPUT_FOLDER/${PLATE[0]}
+done
 
 echo -n "${yellow}Putting the the number tags in each plate… ${reset}"
 
