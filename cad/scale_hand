@@ -9,6 +9,7 @@ SILENT_RUNNING=0
 FORCE=0
 HANDED_INVERSE=left
 HAND=RIGHT
+SETTINGS_FILE=""
 
 red=`tput setaf 1`
 green=`tput setaf 2`
@@ -17,10 +18,10 @@ blue=`tput setaf 4`
 reset=`tput sgr0`
 
 #Parse the command line options
-while getopts hqfm:lru:o:b:i: OPT; do 
+while getopts hqfm:lru:o:b:s:i: OPT; do 
     case "$OPT" in 
         h)
-            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-l|r][-u <user_id>] [-o <output_folder>] [-i <input_folder>] 
+            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-l|r] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] [-s <settings_file>]
 
 -h      Show this help and exit
 -q      Quiet, don't ask for input
@@ -35,8 +36,11 @@ while getopts hqfm:lru:o:b:i: OPT; do
         Specify an output folder
 -b  <build_dir>
         Specifiy an alternative build directory root
--i  <input_folder>
-        Specify an input folder"
+-i  <stl_source_folder>
+        Specify an input folder
+-s <settings_file>
+        Use the settings from a previous run
+        Overides all flags except -f and -q"
             exit 0
             ;;
         q)
@@ -69,6 +73,13 @@ while getopts hqfm:lru:o:b:i: OPT; do
         i)
             INPUT_FOLDER=$OPTARG
             ;;
+        s)
+            SETTINGS_FILE=$OPTARG
+            if [ -f $SETTINGS_FILE ]
+            then
+                source $SETTINGS_FILE
+            fi
+            ;;
     esac
 done
 
@@ -82,11 +93,11 @@ then
     case $INPUT in 
         [lL]*)
             HAND=LEFT
-            HAND_INVERSE=right
+            HANDED_INVERSE=right
             ;;
         [rR]*)
             HAND=RIGHT
-            HAND_INVERSE=left
+            HANDED_INVERSE=left
             ;;
     esac
 
