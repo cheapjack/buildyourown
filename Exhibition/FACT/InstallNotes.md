@@ -22,7 +22,6 @@
  * [ ] Cutting mat
  * [ ] Vitrine vinyl
  * [ ] DoES Business cards and stickers
- * [ ] Supported by Ultimaker sign
  * [ ] Some kind of workflow Manual for Gallery Guides
  * [ ] Application tape and squeedgy for vinyl
  * [ ] Cut vinyl for sub plinths
@@ -34,6 +33,7 @@
  * [ ] Supported by Ultimaker sign
  * [ ] Dremel for cleaning elastic/cord channels??
  * [ ] Spare SD cards for transferring models
+ * [ ] [Thwack](http://www.thingiverse.com/thing:34404) 3D printed mallet x 2
  
 
  
