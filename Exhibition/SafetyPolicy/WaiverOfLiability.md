@@ -64,11 +64,11 @@ Any information provided by **DoESLiverpool**, **FACT** and any individual assoc
 
 You acknowledge that this Agreement is governed by UK law (without reference to its conflict of law provisions) and the parties intend that this Agreement to be as broad and inclusive as permitted by UK law. If any portion of this Agreement is found to be invalid for any reason, the remainder of the Agreement shall continue to remain in full force and effect and shall continue to be binding in all cases.
 
-**You the undersigned have carefully read the foregoing provisions and all the information above and understand their contents.**
+**You the undersigned have carefully read the foregoing provisions and all the information above and understand their contents and contexts.**
 
 **Signed**
 
 
-**Signature  ______________________  Print Name  ___________________________ Date:__________**
+**Signature  ______________________  Print Name  ___________________________ Date:_____________**
 
-**Email contact _____________________ Phone/Mobile Contact _____________________________**
+**Email contact ____________________________ Phone/Mobile Contact ________________________**
