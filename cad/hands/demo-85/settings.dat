@@ -1,0 +1,16 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=demo-85
+MEASUREMENT=85
+HAND=LEFT
+HANDED_INVERSE=right
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0

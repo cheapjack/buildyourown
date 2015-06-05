@@ -1,6 +1,25 @@
-Refer to Video for Raptor hand original design and then follow more detailed information for the Raptor-Reloaded hand DesktopProsthetics is using below.
+##Print & Assembly Manual
 
+**Manual for Gallery Guides manning the DesktopProsthetics Project as part of the FACT/Crafts Council show Build Your Own**
 * [ ] Manual complete
+
+###Printing
+
+On **Saturday 6th June 2015** on the [Measuring workshop](https://github.com/cheapjack/buildyourown/blob/master/events/MeasuringUpWorkshop.md) we will have generated all the files required for printing over the course of the exhibition
+
+These files are seperated into **'print plates'** i.e. a plate of finger prints, a plate for palms etc and 
+
+ * 0-prerequisites
+ * 1-fingers
+ * 2-proximal
+ * 3-gauntlet
+ * 4-palm
+ * 5-tensioner
+
+
+###Assembly Manual
+
+Refer to Video for Raptor hand original design and then follow more detailed information for the Raptor-Reloaded hand DesktopProsthetics is using below.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=5HVwC3RnWXk
 " target="_blank"><img src="http://img.youtube.com/vi/5HVwC3RnWXk/0.jpg" 
