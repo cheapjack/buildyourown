@@ -9,6 +9,8 @@ SILENT_RUNNING=0
 FORCE=0
 HANDED_INVERSE=left
 HAND=RIGHT
+PRIMARY_COLOUR=any
+SECONDARY_COLOUR=any
 SETTINGS_FILE=""
 
 red=`tput setaf 1`
@@ -103,6 +105,12 @@ then
 
     read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
+
+    read -p "Choose a primary print colour [$PRIMARY_COLOUR]: " INPUT
+    [[ -n "$INPUT" ]] && PRIMAY_COLOUR=$INPUT
+
+    read -p "Choose a secondary print colour [$SECONDARY_COLOUR]: " INPUT
+    [[ -n "$INPUT" ]] && SECONDARY_COLOUR=$INPUT
 fi
 
 OUTPUT_FOLDER=$BUILD_DIR/$USER_ID
@@ -221,7 +229,10 @@ plate_folder "pin_cap-1" 1
 plate_folder "proximal" 2
 plate_folder "pin_cap-2" 2
 plate_folder "gauntlet" 3
+plate_folder "tensioner_pin" 3
 plate_folder "palm" 4
+plate_folder "knuckle" 4
+plate_folder "thumb" 4
 plate_folder "ten" 5
 plate_folder "pin" 5
 
@@ -264,6 +275,8 @@ echo "USER_ID=$USER_ID" >> $SETTINGS_FILE
 echo "MEASUREMENT=$MEASUREMENT" >> $SETTINGS_FILE
 echo "HAND=$HAND" >> $SETTINGS_FILE
 echo "HANDED_INVERSE=$HANDED_INVERSE" >> $SETTINGS_FILE
+echo "PRIMAY_COLOUR=$PRIMARY_COLOUR" >> $SETTINGS_FILE
+echo "SECONDAR_COLOUR=$SECONDARY_COLOUR" >> $SETTINGS_FILE
 echo "" >> $SETTINGS_FILE
 echo "# Build settings" >> $SETTINGS_FILE
 echo "BUILD_DIR=$BUILD_DIR" >> $SETTINGS_FILE
@@ -275,10 +288,6 @@ echo "# SILENT_RUNNING=$SILENT_RUNNING" >> $SETTINGS_FILE
 echo "# FORCE=$FORCE" >> $SETTINGS_FILE
 
 echo "${green}Done.${reset}"
-
-echo "${red}*****"
-echo "TODO: run Cura to plate up each batch (some user input required"
-echo "*****${reset}"
 
 echo "Semi-automatic plate generation requires"
 echo "    * Cura"
@@ -293,17 +302,22 @@ case $ANSWER in
 esac
 
 function plater {
-    PLATE_FILENAME=colour-$1-$USER_ID
+    PLATE_FILENAME=$2-$1-$USER_ID
     echo "${yellow}The output file from Cura should be named ${blue}$PLATE_FILENAME.gcode${reset}"
     echo "${yellow}And should be saved in ${blue}$OUTPUT_FOLDER${reset}"
     read -p "Press ENTER to continue…" INPUT
-    echo $PLATE_FILENAME".gcode" | xclip -selection clipboard
+    echo $PLATE_FILENAME | xclip -selection clipboard
     cura $OUTPUT_FOLDER/${PLATE[$1]}/*.stl
 }
 
-for I in {0..5}
+for I in {0..2}
 do
-    plater $I
+    plater $I $SECONDARY_COLOUR
+done
+
+for I in {3..5}
+do
+    plater $I $PRIMARY_COLOUR
 done
 
 echo "${green}Plating finished${reset}"
