@@ -5,9 +5,16 @@
 
 ###Printing
 
-On **Saturday 6th June 2015** on the [Measuring workshop](https://github.com/cheapjack/buildyourown/blob/master/events/MeasuringUpWorkshop.md) we will have generated all the files required for printing over the course of the exhibition
+On **Saturday 6th June 2015** on the [Measuring workshop](https://github.com/cheapjack/buildyourown/blob/master/events/MeasuringUpWorkshop.md) we will have generated all the files required for printing over the course of the exhibition.
 
-These files are seperated into **'print plates'** i.e. a plate of finger prints, a plate for palms etc and 
+As gallery guide you are essentially supporting the fulfilment of these 'orders' in a print queue. Each participant is measured, given a code and some colour choices recorded (pink, red, blue, green, white or silver)
+
+Name | CodeName | Measurement | PalmGauntlet Colour | Extremity Colour
+------------ | ------------- |------------ | ------------- |------------
+Baylee Abbott | Baylee | 63mm | Pink | Blue
+Adult Demo Hand | Demo-85 | 63mm | Red | Silver
+
+This info is inputted into a programme that generates **.stl** print files seperated into **'build plates'** i.e. a plate of finger prints, a plate for palms etc and uploaded by DoESLiverpool onto SD cards in the printers. Gallery Guides are not involved in this process
 
  * 0-prerequisites
  * 1-fingers
@@ -16,6 +23,31 @@ These files are seperated into **'print plates'** i.e. a plate of finger prints,
  * 4-palm
  * 5-tensioner
 
+The file generation system DoES uses also adds the colour to each plate file name and you can refer to the [Print Queue](https://github.com/cheapjack/buildyourown/blob/master/Manual/PrintQueue.md) document to cross reference colour and other details.
+
+All the files will be loaded onto the printers and can be selected for printing using the rotary selector on the Ultimaker2. Please refer to the Gallery Copy Manual for setting up and starting printing.
+
+Each hand has a 0-prerequisites build plate which once printed on the printer include 2 name tags featuring the code/username of the participant, one for them to keep as a key ring and one to hook onto a wall mounted clear plastic storage box. It also prints the 6 hooks required to hook this onto the boxes. Once the username tag is placed hooked onto the container, this container will hold all the hand parts for this particular hand and is permanently associated to that participant. More boxes will be made available.
+
+Each subsequent plate prints a 2 layer text of the username for reference plus a plate number tag for hooking onto (not for hooking onto the box, we've done that in pre-requisites)
+
+You work through printing each plate; once a plate is complete it's contents are removed from the print plate (see manual, increasing the bed temperature to 36 degrees helps remover the items easily) and placed in the correct clear plastic box; it will be labelled from the pre-requisite step. You dont have to do each plate in order; if there is red PLA preloaded it makes sense to do a red build plate; cycle through the menu and select a file to print, referrring to the wall boxes to check it has not already been printed.
+
+Only select files that have the correct colour loaded onto the Ultimaker; look at the material at the back to see the colour currently loaded. If you choose a colour different to one already loaded please follow the Ultimaker manual guideline to change the PLA material
+
+All print stock is PLA and the Ultimaker 2 should be set to print this at all times.
+
+Most days a print will be already running and you only have to watch for failed prints
+
+###Print Fails
+
+If a print fails, pause and then abort the print. Take off everything from the bed and place in a box marked fail with a note of the name and plate number. Re-prepare the plate check it is not overloaded with pritt stick and restart the file; then onc the corrected component is printed, say 1 finger needs a re-print, let it start the next print then pause and abort and check youve completed that plate.
+
+If the print continues to fail, refer to the troubleshooting section of the Ultimaker Manual but its usually:
+ * The pritt stick has built up too thick and the plate needs removing,  a wash in warm soapy water and thorough dry
+ * The plate is no longer level and needs a reset
+
+If you cannot troubleshoot contact DoESLiverpool, Ross, Patrick or Adrian and they will try talk through the problem and failing that come in to troubleshoot direct
 
 ###Assembly Manual
 
