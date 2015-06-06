@@ -12,7 +12,7 @@ As gallery guide you are essentially supporting the fulfilment of these 'orders'
 Name | CodeName | Measurement | PalmGauntlet Colour | Extremity Colour
 ------------ | ------------- |------------ | ------------- |------------
 Baylee Abbott | Baylee | 63mm | Pink | Blue
-Adult Demo Hand | Demo-85 | 63mm | Red | Silver
+Adult Demo Hand | Demo-85 | 85mm | Red | Silver
 
 This info is inputted into a programme that generates **.stl** print files seperated into **'build plates'** i.e. a plate of finger prints, a plate for palms etc and uploaded by DoESLiverpool onto SD cards in the printers. Gallery Guides are not involved in this process
 
