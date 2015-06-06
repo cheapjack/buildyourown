@@ -1,0 +1,18 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=guts-squid
+MEASUREMENT=44.82
+HAND=RIGHT
+HANDED_INVERSE=left
+PRIMAY_COLOUR=any
+SECONDAR_COLOUR=lt-blu
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0
