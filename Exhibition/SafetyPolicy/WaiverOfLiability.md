@@ -69,6 +69,17 @@ You acknowledge that this Agreement is governed by UK law (without reference to 
 **Signed**
 
 
-**Signature  ______________________  Print Name  ___________________________ Date:_____________**
 
-**Email contact ____________________________ Phone/Mobile Contact ________________________**
+###Signature  ____________________________________________  
+
+
+###Print Name  ____________________________________________ 
+
+
+###Date:____________________________________________
+
+
+###Email contact ____________________________________________ 
+
+
+###Phone/Mobile Contact ____________________________________________
