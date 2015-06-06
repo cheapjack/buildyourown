@@ -107,7 +107,7 @@ then
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
 
     read -p "Choose a primary print colour [$PRIMARY_COLOUR]: " INPUT
-    [[ -n "$INPUT" ]] && PRIMAY_COLOUR=$INPUT
+    [[ -n "$INPUT" ]] && PRIMARY_COLOUR=$INPUT
 
     read -p "Choose a secondary print colour [$SECONDARY_COLOUR]: " INPUT
     [[ -n "$INPUT" ]] && SECONDARY_COLOUR=$INPUT
