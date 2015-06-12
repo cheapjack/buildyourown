@@ -1,0 +1,18 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=gasp-law
+MEASUREMENT=87.07
+HAND=LEFT
+HANDED_INVERSE=right
+PRIMAY_COLOUR=ltBlu
+SECONDAR_COLOUR=green
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0
