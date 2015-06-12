@@ -290,7 +290,6 @@ echo "${green}Done.${reset}"
 
 echo "Semi-automatic plate generation requires"
 echo "    * Cura"
-echo "    * xclip"
 echo ""
 read -p "${yellow}Do you wish to generate plates with Cura? (Yn): " ANSWER
 case $ANSWER in 
@@ -302,11 +301,12 @@ esac
 
 function plater {
     PLATE_FILENAME=$2-$1-$USER_ID
-    echo "${yellow}The output file from Cura should be named ${blue}$PLATE_FILENAME.gcode${reset}"
-    echo "${yellow}And should be saved in ${blue}$OUTPUT_FOLDER${reset}"
+    echo "${yellow}Ensure that all parts fit onto the build plate (move any that are grey)${reset}"
+    echo "${yellow}Save the output GCode file from Cura as ${blue}$PLATE_FILENAME.gcode${reset}"
+    echo "${yellow}And it should be saved in ${blue}$OUTPUT_FOLDER${reset}"
     read -p "Press ENTER to continue…" INPUT
-    echo $PLATE_FILENAME | xclip -selection clipboard
-    cura $OUTPUT_FOLDER/${PLATE[$1]}/*.stl
+    mv $OUTPUT_FOLDER/${PLATE[$1]}/$USER_ID.stl $OUTPUT_FOLDER/${PLATE[$1]}/$PLATE_FILENAME.stl
+    cura `ls -c $OUTPUT_FOLDER/${PLATE[$1]}/*.stl`
 }
 
 for I in {0..2}
