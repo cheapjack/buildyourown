@@ -107,7 +107,7 @@ then
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
 
     read -p "Choose a primary print colour [$PRIMARY_COLOUR]: " INPUT
-    [[ -n "$INPUT" ]] && PRIMAY_COLOUR=$INPUT
+    [[ -n "$INPUT" ]] && PRIMARY_COLOUR=$INPUT
 
     read -p "Choose a secondary print colour [$SECONDARY_COLOUR]: " INPUT
     [[ -n "$INPUT" ]] && SECONDARY_COLOUR=$INPUT
@@ -243,9 +243,8 @@ echo "${yellow}Creating user-id tag.${reset}"
 echo "${yellow}Generation of this STL may take a couple of minutes… ${reset}"
 
 openscad -o $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID.stl -D 'line1="'$USER_ID'"; bar_style="surround_text"; font="Linux Libertine O"' $INPUT_FOLDER/$ID_FOLDER/HD_Font_Keychain_v4_0.scad
-cp $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID.stl $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID-1.stl 
 
-for I in $INPUT_FOLDER/$ID_FOLDER/tag-hook-*.stl
+for I in $INPUT_FOLDER/$ID_FOLDER/hook*.stl
 do
     cp $I $OUTPUT_FOLDER/${PLATE[0]}
 done
