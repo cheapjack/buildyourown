@@ -1,0 +1,18 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=leaf-keeps
+MEASUREMENT=37.86
+HAND=LEFT
+HANDED_INVERSE=right
+PRIMAY_COLOUR=pink
+SECONDAR_COLOUR=dkBlu
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0
