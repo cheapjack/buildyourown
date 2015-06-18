@@ -2,7 +2,7 @@
 
 Checklist for Raptor-Reloaded print progress at DesktopProsthetics in FACT
 
-BuildName | Printed | Assembled | Fitted | Collected
+BuildName | All Plates Printed | Assembled | Fitted | Collected
 ------------ | ------------- |------------ | ------------- |------------ 
 gasp-law | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 gin-timers | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
