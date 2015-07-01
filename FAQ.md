@@ -104,3 +104,25 @@ The process was a gradual design of the format of the project between DoES Liver
 DoESLiverpool like many makerspaces, do not **do** projects in a sense, we simply try to **help our community to realise their projects with the facilities we have.** Our community is essentially anyone who wants to do something with us. This collaboration with FACT and Reach originated from a local family printing a prosthetic hand in our workshop and 3 members of the community leading the project, with interests and skills in 3D printing suggesting that building on this was a good idea.
 
 I'd say the background to why this kind of project has happened the way it has, is the growth of maker/hacker spaces and open source thinking and their emergence into the mainstream; plus more and more public facing events like Maker Faire UK, cultural and civic hackdays combined with open tools like github or sharing platforms like thingiverse that makes it easier to work like this. There's a rising awareness of this kind of 'open' technical culture being a conduit for change not just individual experience and need but the wider infrastructure of society itself and the things that it uses and makes.
+
+### The Raptor reloaded prototype is designed for someone with a working wrist joint, what if I don't have one? Can I still print a hand?
+
+**An issue** that came up at the [Measuring Workshop](https://github.com/cheapjack/buildyourown/blob/master/events/MeasuringUpWorkshop.md) was that we realised that for many people, the [Raptor Reloaded](http://www.thingiverse.com/thing:596966) design which we’ve been using for the project may not be the most appropriate design for everyone's situation; it's designed for some kind of wrist joint to make it work mechanically. As we originally only had experience building this design it made us have to re-think things.
+
+First off we are going to continue printing out prototype hands for those that seem best suited based on our groups experience and advice (Drew, DoES, e-NABLE, Baylee and family). They are currently in the FACT print queue getting printed out ready for assembly in August.
+
+If, in your case you don't have a conventional wrist joint we've come up with this plan.
+
+ * Print out a Raptor reloaded hand for everyone and look and see how it could be adapted for you at the assembly workshops on the 8th and 22nd of August. This is the best option as we have a working scaling system for the Raptor design and it will give us something to start with. We have been researching the 'Raptor Wing' which is an adaptation to help make the Raptor design work for someone with no or limited wrist use and for a range of forearm sizes.
+
+ * One family from Devon took a raptor demo hand with them (mainly as they'd travelled all the way from Devon) and their son only had an elbow joint with very short forearm; as a starting point they were happy with that option and their son did get use of it and enjoyed having one despite him having no wrist joint. They will also have their details passed onto e-NABLE, like all of us, to connect to their community.
+
+ * Experiment printing out an example Raptor Wing and also the ‘RIT-Arm’ prototype and experiment fitting them with the Raptor hands at both of the assembly workshops on the 8th and 22nd August 2015 at FACT. We have to acknowledge we have no experience with these designs but the Raptor Wing looks like the most promising, esp. as it allows us to use the Raptor hands that we do know about. The RIT-arm fitting relies on fitting a cup that will accommodate people’s limbs so its hard to do this without making one and trying it out and it won’t be the right solution for everyone
+
+ * It may be that not everyone's hands will be ready for assembly on the assembly days (8th & 22nd August) but we will update you all closer to the time (approx. Saturday 1st August) so we can confirm you will have something to assemble and work with and this will help you to decide which day to come on if you can only come to one.
+
+We **can't guarantee** that after the assembly workshops everyone will go away with a hand that works in the best way for them but it is a starting point in the *prototyping process*. Moving on from there people can join the interest group which we hope will develop around the project, so you can print more prototypes and make adjustments yourselves and also take up a dialogue with e-NABLE and other participants of **DesktopProsthetics.**
+
+At the moment we have compiled everyone's measurements and reference hand images and have used Drew Murray's experience knowledge and advice to make this plan. 
+
+We will carry on printing and update participants from the first Measuring workshop on progress by **August the 1st 2015**. 
