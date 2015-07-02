@@ -47,6 +47,8 @@ If the print continues to fail, refer to the troubleshooting section of the Ulti
  * The pritt stick has built up too thick and the plate needs removing,  a wash in warm soapy water and thorough dry
  * The plate is no longer level and needs a reset
 
+Refer to additional Troubleshooting [here](https://github.com/cheapjack/buildyourown/blob/master/Manual/Troubleshooting.md)
+
 If you cannot troubleshoot contact DoESLiverpool, Ross, Patrick or Adrian and they will try talk through the problem and failing that come in to troubleshoot direct
 
 ###Assembly Manual
