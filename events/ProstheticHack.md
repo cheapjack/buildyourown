@@ -20,3 +20,6 @@ http://doesliverpool.com
 * Explore human centred and activity centred co-design
 * Modify and prototype new designs
 * Present & document prototypes, printing where possible.
+
+### Prep
+ * Try adding some Lego connectors to a hand and print it out.  [Parametric Lego model in OpenSCAD](http://www.thingiverse.com/thing:178627)
