@@ -14,7 +14,7 @@ We will also be looking at how to adapt the Raptor Re-Loaded for those families 
 http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/
 http://doesliverpool.com
 
- * [x] Copy signed off
+ * [ ] Copy signed off
 
 ### Workshop Activity
 * Look at prosthetic design
