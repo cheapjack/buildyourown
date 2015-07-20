@@ -1,5 +1,6 @@
 # What's Your SuperPower? - A Prosthetic Hack!
 ![image](http://fact.co.uk/ImageResizer.ashx?path=/media/60685903/dsc_3574.jpg&width=530&height=275&mode=Crop)
+[Book on the FACT website here](http://fact.co.uk/whats-on/current/does-what-s-your-super-power-a-prosthetic-hack.aspx)
 
 Image source [Enabling the Future on Thingiverse](http://thingiverse-production-new.s3.amazonaws.com/renders/1d/20/95/d4/49/All_parts_at_100_right_single_build_plate_preview_featured.jpg) Licensed under [Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/ "License Link")
 
