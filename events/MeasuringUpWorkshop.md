@@ -21,6 +21,11 @@ Image source [Enabling the Future on Thingiverse](http://thingiverse-production-
  * *Measuring work flow*
    * Set size with calipers
    * Input into System & record
+
+Printed? | No | Name | code-name | Affected Hand | Age | Left knuckles | Left Wrist | Right knuckles | Right Wrist | Unaffected Forarm length | Affected residual length | Affected elbow width | Palm Colour | Extremity Colour | Contact
+------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | -------------
+gasp-law | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>   
+
    * Output files and log
    * Include participant details
    * Sign the Liability and Health & Safety Disclaimer
@@ -38,6 +43,11 @@ Image source [Enabling the Future on Thingiverse](http://thingiverse-production-
  * *Measuring work flow*
    * Set size with calipers
    * Input into System & record
+
+Printed? | No | Name | code-name | Affected Hand | Age | Left knuckles | Left Wrist | Right knuckles | Right Wrist | Unaffected Forarm length | Affected residual length | Affected elbow width | Palm Colour | Extremity Colour | Contact
+------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | ------------- |------------ | -------------
+gasp-law | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+
    * Output files and log
    * Include participant details
    * Sign the Liability and Health & Safety Disclaimer
