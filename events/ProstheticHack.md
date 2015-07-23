@@ -35,3 +35,10 @@ http://doesliverpool.com
  * Simple examples of using [OpenSCAD](http://www.openscad.org/)
  * Source some FACT laptops (say 2)
  * Equipment list
+
+### Background Information
+ * http://rewalk.com/rewalk-personal-3/
+ * http://www.theguardian.com/artanddesign/architecture-design-blog/2015/jul/22/lego-prosthetic-arm-that-kids-can-hack-themselves
+ * http://www.openbionics.org/
+ * http://news.harvard.edu/gazette/story/2015/06/a-new-grasp-on-robotic-glove/
+ * http://www.engadget.com/2015/03/13/3d-printed-iron-man-gauntlet-becomes-a-kids-awesome-bionic-arm/
