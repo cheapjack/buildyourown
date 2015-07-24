@@ -15,7 +15,7 @@ We will also be looking at how to adapt the Raptor Re-Loaded for those families 
 http://enablingthefuture.org/upper-limb-prosthetics/the-raptor-hand/
 http://doesliverpool.com
 
- * [ ] Copy signed off
+ * [x] Copy signed off
 
 ### Workshop Activity
 * Look at prosthetic design
@@ -34,7 +34,21 @@ http://doesliverpool.com
  * Have the Printcraft server for young people to play on
  * Simple examples of using [OpenSCAD](http://www.openscad.org/)
  * Source some FACT laptops (say 2)
- * Equipment list
+
+### Checklist
+
+ * [ ] Wallpaper cover paper
+ * [ ] Masking Tape
+ * [ ] Pens & Paper
+ * [ ] Superglue
+ * [ ] Post-it Notes
+ * [ ] Freshly Printed Lego Finger adaptors
+ * [ ] OnShape
+ * [x] OpenSCAD
+ * [x] Lego technic
+ * [x] 2 MacBooks (FACT)
+ * [x] Flipchart (FACT)
+ * [x] Minecraft (FACT)
 
 ### Background Information
  * http://rewalk.com/rewalk-personal-3/
