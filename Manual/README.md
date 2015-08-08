@@ -101,7 +101,7 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
  * Connect proximals to palm using knuckle pins, tap them in gently with a hammer
  * Connect thumb proximal to thumb joint on palm with thumb
  * Connect gauntlet to palm using the 2 wrist pins
- * Feed the unknotted end of the elastic into the passage in the knuckles loop and loop back
+ * Feed the unknotted end of the elastic into the passage in the knuckles loop and loop back and tie securely
 
 ![8](https://cloud.githubusercontent.com/assets/128456/7897688/96724fe2-06dc-11e5-9d4d-85de57866555.png)
 
@@ -110,8 +110,15 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
 
 ![6](https://cloud.githubusercontent.com/assets/128456/7897598/20abf9aa-06d9-11e5-89b6-a296a4aa3d06.png)
 
- * Now assemble the Retention clip and tensioner with pins
- * thread cord into palm to pull fingers
+ * Now assemble the Retention clip and tensioner with pins and non-elastic cord this will engage the grip and needs some adjustment
+ * Tie off the non-elastic cord to the underneath tie off point of the fingers. This cord will share the top palm channels that the elastic and non-elastic cords feed through, a channel for each finger and thumb.
+ * Thread the non-elastic cord from the underneath of the fingers (from the underneath tie off) and through and under the proximals, through and under the knuckle hole and then fed over the palm through the palm cord channel alongside the elastic.
+ * If you feed it right the non-elastic cord will feed under the elastic which is tied off at the base of the palm over the top of the palm bridge and be tied to a tensioner pin.
+ * Remember Each cord is fed through the underneath of the fingers and knotted securely to the underneath tie off point of the finger
+ * tie off the end of the non-elastic to the square hole in the end of the tensioner pin.
+ * Each tensioner is inserted into the tensioner clip and tensioner and a 3M screw screws into the base of the pin from the rear of the tensioner to secure in place and allow adjustment.
+ * For those of you without a working wrist there is some adjustment to the non-elastics to make it fit the Raptor wing which we have a prototype for at the Assembly workshop
+
 
 *Steps incomplete needs work*
 
