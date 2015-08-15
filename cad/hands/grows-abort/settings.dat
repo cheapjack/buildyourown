@@ -1,0 +1,18 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=grows-abort
+MEASUREMENT=48.29
+HAND=LEFT
+HANDED_INVERSE=right
+PRIMAY_COLOUR=Pink
+SECONDAR_COLOUR=Blue
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0
