@@ -6,7 +6,7 @@ FACT Liverpool events:
  * [Measuring Up](MeasuringUpWorkshop.md) **Saturday 6th June** 
  * [What's your superpower? A Prosthetic Hack!](ProstheticHack.md) **Saturday 25th July** [FACT link](http://fact.co.uk/whats-on/current/does-what-s-your-super-power-a-prosthetic-hack.aspx) 
  * [Assembly workshop](Assemblyworkshop.md) **Saturday 8th August** & **Saturday 22nd August**
- * **DoES does Prosthetics Day** at DoES Liverpool **Saturday 15th August 2015** Details to follow
+ * [DoES does Prosthetics Day](https://github.com/cheapjack/buildyourown/blob/master/events/DoESdoesProsthetics.md) at DoES Liverpool **Saturday 15th August 2015** 
 * [x] event dates signed off
 
 **Norwich Castle events to be defined, arranged, etc. by the Norwich partners.**
