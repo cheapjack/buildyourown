@@ -1,0 +1,18 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=eddy-troops
+MEASUREMENT=62.37
+HAND=LEFT
+HANDED_INVERSE=right
+PRIMAY_COLOUR=Pink
+SECONDAR_COLOUR=Dark-Blue
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0

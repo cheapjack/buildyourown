@@ -1,0 +1,18 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=peewee-undies
+MEASUREMENT=53.1
+HAND=RIGHT
+HANDED_INVERSE=left
+PRIMAY_COLOUR=Blue
+SECONDAR_COLOUR=Blue
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0
