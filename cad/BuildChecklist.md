@@ -15,7 +15,21 @@ Mars-teeth | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ 
 coil-leaf | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>
 trite-keeps | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 month-reared | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+tuck-guts | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+gin-trite | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+beds-troy | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+tuck-choosy | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+grows-abort | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+
+### DoES Liverpool Print Queue
+
+Hands being printed at DoES Liverpool to increase our capacity
+
+BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Reprint | Re-Printed
+------------ | ------------- |------------ | ------------- | ------------ | ------------- | ------------ 
+peewee-undies | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 
