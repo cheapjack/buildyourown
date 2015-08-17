@@ -18,8 +18,6 @@ month-reared | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>
 tuck-guts | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 gin-trite | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 beds-troy | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-tuck-choosy | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-grows-abort | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
@@ -31,5 +29,9 @@ Hands being printed at DoES Liverpool to increase our capacity
 BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Reprint 
 ------------ | ------------- |------------ | ------------- | ------------ | ------------- 
 peewee-undies | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+tuck-choosy | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+grows-abort | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+coil-Mars | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+eddy-troops | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 
