@@ -6,7 +6,7 @@ BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Repri
 ------------ | ------------- |------------ | ------------- | ------------ | -------------  
 gasp-law | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 gin-timers | <ul><li>[x] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-guts-squid | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] coil-Mars</li>
+guts-squid | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] coil-Mars</li>
 leaf-keeps | <ul><li>[x] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] eddy-troops</li>
 gushes-eddy | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] beds-troy</li>
 manual-guts | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
@@ -18,7 +18,7 @@ month-reared | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>
 tuck-guts | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 gin-trite | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 beds-troy | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] undies-manual </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 
