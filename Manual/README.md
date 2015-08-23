@@ -83,6 +83,7 @@ alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
 
 ![3](https://cloud.githubusercontent.com/assets/128456/7897559/ca290b3c-06d7-11e5-973e-c7ed0ed94daf.png)
 
+ * Give all the surfaces that move against another part a light sanding down with sandpaper so that they move freely 
  * Connect them first without pin and ensure they are cleaned sufficiently to move loosely
  * Prep elastic size, with enough length to run over end of palm. 
  * Melt ends with lighter to prevent fraying

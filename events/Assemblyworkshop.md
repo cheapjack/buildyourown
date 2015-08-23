@@ -45,4 +45,11 @@ Mars-teeth | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <input typ
 * Pins and screws
 * fine sandpaper
 * Superglue
+* Junior hacksaw
+* Scissors
+* A needle
+* Screwdrivers
+* Pliers
+* Tweezers
+* Cigarette lighter
 
