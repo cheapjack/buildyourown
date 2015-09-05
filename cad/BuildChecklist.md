@@ -1,5 +1,7 @@
 ##BuildChecklist
 
+#### Refer to [issue #85](https://github.com/cheapjack/buildyourown/issues/85)
+
 Checklist for Raptor-Reloaded print progress at DesktopProsthetics in FACT **(now closed)**
 
 BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Reprint (new codename)
