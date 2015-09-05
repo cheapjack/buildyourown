@@ -1,6 +1,6 @@
 ##BuildChecklist
 
-Checklist for Raptor-Reloaded print progress at DesktopProsthetics in FACT
+Checklist for Raptor-Reloaded print progress at DesktopProsthetics in FACT **(now closed)**
 
 BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Reprint (new codename)
 ------------ | ------------- |------------ | ------------- | ------------ | -------------  
@@ -32,6 +32,6 @@ ruing-beds | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ 
 peewee-undies | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 tuck-choosy | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 tuck-guts | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] undies-manual </li>
+undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 
