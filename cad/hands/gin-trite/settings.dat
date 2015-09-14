@@ -5,7 +5,7 @@ USER_ID=gin-trite
 MEASUREMENT=72.99
 HAND=LEFT
 HANDED_INVERSE=right
-PRIMAY_COLOUR=Dark-Blue
+PRIMAY_COLOUR=DarkBlue
 SECONDAR_COLOUR=Yellow
 
 # Build settings
@@ -15,4 +15,4 @@ ID_FOLDER=id
 
 # Runtime settings
 # SILENT_RUNNING=0
-# FORCE=0
+# FORCE=1
