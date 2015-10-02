@@ -211,6 +211,33 @@ fi
 # make the directory in case it doesn't exist
 mkdir -p $OUTPUT_FOLDER
 
+echo "${yellow}Generating the settings file… ${reset}"
+
+SETTINGS_FILE=$OUTPUT_FOLDER/settings.dat
+echo "# Automatically generated settings file" > $SETTINGS_FILE
+echo "" >> $SETTINGS_FILE
+echo "# Prosthetics settings" >> $SETTINGS_FILE
+echo "USER_ID=$USER_ID" >> $SETTINGS_FILE
+echo "WRISTMEASUREMENT=$WRISTMEASUREMENT" >> $SETTINGS_FILE
+echo "MEASUREMENT=$MEASUREMENT" >> $SETTINGS_FILE
+echo "HAND=$HAND" >> $SETTINGS_FILE
+echo "HANDED_INVERSE=$HANDED_INVERSE" >> $SETTINGS_FILE
+echo "PRIMAY_COLOUR=$PRIMARY_COLOUR" >> $SETTINGS_FILE
+echo "SECONDARY_COLOUR=$SECONDARY_COLOUR" >> $SETTINGS_FILE
+echo "" >> $SETTINGS_FILE
+echo "# Build settings" >> $SETTINGS_FILE
+echo "BUILD_DIR=$BUILD_DIR" >> $SETTINGS_FILE
+echo "INPUT_FOLDER=$INPUT_FOLDER" >> $SETTINGS_FILE
+echo "ID_FOLDER=$ID_FOLDER" >> $SETTINGS_FILE
+echo "" >> $SETTINGS_FILE
+echo "# Runtime settings" >> $SETTINGS_FILE
+echo "# SILENT_RUNNING=$SILENT_RUNNING" >> $SETTINGS_FILE
+echo "# FORCE=$FORCE" >> $SETTINGS_FILE
+echo "" >> $SETTINGS_FILE
+echo "# SCALING_FACTOR=$(float_eval "( $MEASUREMENT + 5 ) / 55")" >> $SETTINGS_FILE
+
+echo "${green}Done.${reset}"
+
 echo "${yellow}Resizing STLs… ${reset}"
 
 # do the actual creation of the files
@@ -329,31 +356,6 @@ do
 done
 
 rm $OUTPUT_FOLDER/$USER_ID.stl
-
-echo "${green}Done.${reset}"
-
-echo "${yellow}Generating the settings file… ${reset}"
-
-SETTINGS_FILE=$OUTPUT_FOLDER/settings.dat
-echo "# Automatically generated settings file" > $SETTINGS_FILE
-echo "" >> $SETTINGS_FILE
-echo "# Prosthetics settings" >> $SETTINGS_FILE
-echo "USER_ID=$USER_ID" >> $SETTINGS_FILE
-echo "WRISTMEASUREMENT=$WRISTMEASUREMENT" >> $SETTINGS_FILE
-echo "MEASUREMENT=$MEASUREMENT" >> $SETTINGS_FILE
-echo "HAND=$HAND" >> $SETTINGS_FILE
-echo "HANDED_INVERSE=$HANDED_INVERSE" >> $SETTINGS_FILE
-echo "PRIMAY_COLOUR=$PRIMARY_COLOUR" >> $SETTINGS_FILE
-echo "SECONDARY_COLOUR=$SECONDARY_COLOUR" >> $SETTINGS_FILE
-echo "" >> $SETTINGS_FILE
-echo "# Build settings" >> $SETTINGS_FILE
-echo "BUILD_DIR=$BUILD_DIR" >> $SETTINGS_FILE
-echo "INPUT_FOLDER=$INPUT_FOLDER" >> $SETTINGS_FILE
-echo "ID_FOLDER=$ID_FOLDER" >> $SETTINGS_FILE
-echo "" >> $SETTINGS_FILE
-echo "# Runtime settings" >> $SETTINGS_FILE
-echo "# SILENT_RUNNING=$SILENT_RUNNING" >> $SETTINGS_FILE
-echo "# FORCE=$FORCE" >> $SETTINGS_FILE
 
 echo "${green}Done.${reset}"
 
