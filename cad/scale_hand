@@ -1,11 +1,48 @@
 #!/bin/bash
 
+#####################################################################
+# Default scale used by float functions.
+
+float_scale=2
+
+#####################################################################
+# Evaluate a floating point number expression.
+
+function float_eval()
+{
+    local stat=0
+    local result=0.0
+    if [[ $# -gt 0 ]]; then
+        result=$(echo "scale=$float_scale; $*" | bc -q 2>/dev/null)
+        stat=$?
+        if [[ $stat -eq 0  &&  -z "$result" ]]; then stat=1; fi
+    fi
+    echo $result
+    return $stat
+}
+
+
+#####################################################################
+# Evaluate a floating point number conditional expression.
+
+function float_cond()
+{
+    local cond=0
+    if [[ $# -gt 0 ]]; then
+        cond=$(echo "$*" | bc -q 2>/dev/null)
+        if [[ -z "$cond" ]]; then cond=0; fi
+        if [[ "$cond" != 0  &&  "$cond" != 1 ]]; then cond=0; fi
+    fi
+    local stat=$((cond == 0))
+    return $stat
+}
+
 USER_ID=$(./hipstergen)
 BUILD_DIR=hands
 INPUT_FOLDER=src
 ID_FOLDER=id
 MEASUREMENT=65
-WRISTMEASUREMENT=1
+WRISTMEASUREMENT=48
 # Unit Wrist measure = 41mm
 # Unit Knuckle measure = 54.75mm
 # Knuckle / Wrist = 1.3353
@@ -28,13 +65,15 @@ reset=`tput sgr0`
 while getopts hqfm:lru:o:b:s:i: OPT; do 
     case "$OPT" in 
         h)
-            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-l|r] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] [-s <settings_file>]
+            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-w <wrist_measurement>] [-l|r] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] [-s <settings_file>]
 
 -h      Show this help and exit
 -q      Quiet, don't ask for input
 -f      Force overwrite of existing files
 -m <measurement>
         Input a cross-knuckles measurement in mm
+-w <wrist_measurement>
+        Input the affected wrist measurement in mm
 -(l|r)
         Left or Right hand
 -u <user_id>
@@ -59,6 +98,9 @@ while getopts hqfm:lru:o:b:s:i: OPT; do
             ;;
         m)
             MEASUREMENT=$OPTARG
+            ;;
+        w)
+            WRISTMEASUREMENT=$OPTARG
             ;;
         l)
             HAND=LEFT
@@ -108,14 +150,35 @@ then
             ;;
     esac
 
-    read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
+    read -p "Input affected cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
     [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
+
+    read -p "Input affected wrist measurement (mm) [$WRISTMEASUREMENT]: " INPUT
+    [[ -n "$INPUT" ]] && WRISTMEASUREMENT=$INPUT
 
     read -p "Choose a primary print colour [$PRIMARY_COLOUR]: " INPUT
     [[ -n "$INPUT" ]] && PRIMARY_COLOUR=$INPUT
 
     read -p "Choose a secondary print colour [$SECONDARY_COLOUR]: " INPUT
     [[ -n "$INPUT" ]] && SECONDARY_COLOUR=$INPUT
+fi
+
+# check the wrist measurement is smaller than the generated model
+if float_cond "$MEASUREMENT / $KNUCKLE_TO_WRIST_RATIO < $WRISTMEASUREMENT"; then 
+    echo "Affected wrist measurement is larger than the wrist width of the output model"
+    echo "Minimum recommended cross-hand measurement is:${red} $(float_eval "$WRISTMEASUREMENT * $KNUCKLE_TO_WRIST_RATIO")${reset}"
+    if [ $FORCE == 0 ]
+    then 
+        read -p "Do you want to generate a hand anyway? [y/N]: " INPUT
+        case $ANSWER in
+            [yY]*)
+                ;;
+            *)
+                echo "Stopped."
+                exit 1
+                ;;
+        esac
+    fi
 fi
 
 OUTPUT_FOLDER=$BUILD_DIR/$USER_ID
@@ -276,6 +339,7 @@ echo "# Automatically generated settings file" > $SETTINGS_FILE
 echo "" >> $SETTINGS_FILE
 echo "# Prosthetics settings" >> $SETTINGS_FILE
 echo "USER_ID=$USER_ID" >> $SETTINGS_FILE
+echo "WRISTMEASUREMENT=$WRISTMEASUREMENT" >> $SETTINGS_FILE
 echo "MEASUREMENT=$MEASUREMENT" >> $SETTINGS_FILE
 echo "HAND=$HAND" >> $SETTINGS_FILE
 echo "HANDED_INVERSE=$HANDED_INVERSE" >> $SETTINGS_FILE
