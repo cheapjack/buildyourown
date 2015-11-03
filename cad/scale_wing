@@ -1,0 +1,314 @@
+#!/bin/bash
+
+USER_ID=$(./hipstergen)
+BUILD_DIR=hands
+INPUT_FOLDER=src/RaptorWing
+ID_FOLDER=../id
+MEASUREMENT=65
+SILENT_RUNNING=0
+FORCE=0
+HANDED_INVERSE=left
+HAND=RIGHT
+PRIMARY_COLOUR=any
+SECONDARY_COLOUR=any
+SETTINGS_FILE=""
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+blue=`tput setaf 4`
+reset=`tput sgr0`
+
+#Parse the command line options
+while getopts hqfm:lru:o:b:s:i: OPT; do 
+    case "$OPT" in 
+        h)
+            echo "Usage: `basename $0` [-h] [-q] [-f] [-m <measurement>] [-l|r] [-u <user_id>] [-o <output_folder>] [-i <input_folder>] [-s <settings_file>]
+
+-h      Show this help and exit
+-q      Quiet, don't ask for input
+-f      Force overwrite of existing files
+-m <measurement>
+        Input a cross-knuckles measurement in mm
+-(l|r)
+        Left or Right hand
+-u <user_id>
+        Input a User_ID
+-o  <output_folder>
+        Specify an output folder
+-b  <build_dir>
+        Specifiy an alternative build directory root
+-i  <stl_source_folder>
+        Specify an input folder
+-s <settings_file>
+        Use the settings from a previous run
+        Overides all flags except -f and -q"
+            exit 0
+            ;;
+        q)
+            SILENT_RUNNING=1
+            ;;
+
+        f)
+            FORCE=1
+            ;;
+        m)
+            MEASUREMENT=$OPTARG
+            ;;
+        l)
+            HAND=LEFT
+            HANDED_INVERSE=right
+            ;;
+        r)
+            HAND=RIGHT
+            HANDED_INVERSE=left
+            ;;
+        u)
+            USER_ID=$OPTARG
+            ;;
+        o)
+            OUTPUT_FOLDER=$OPTARG
+            ;;
+        b)
+            BUILD_DIR=$OPTARG
+            ;;
+        i)
+            INPUT_FOLDER=$OPTARG
+            ;;
+        s)
+            SETTINGS_FILE=$OPTARG
+            if [ -f $SETTINGS_FILE ]
+            then
+                source $SETTINGS_FILE
+            fi
+            ;;
+    esac
+done
+
+# ask for input if not in silent running mode
+if [ $SILENT_RUNNING -eq 0 ]
+then
+    read -p "Input User_ID [$USER_ID]: " INPUT
+    [[ -n "$INPUT" ]] && USER_ID=$INPUT
+
+    read -p "Which side hand should we generate? [$HAND|$HANDED_INVERSE]: " INPUT
+    case $INPUT in 
+        [lL]*)
+            HAND=LEFT
+            HANDED_INVERSE=right
+            ;;
+        [rR]*)
+            HAND=RIGHT
+            HANDED_INVERSE=left
+            ;;
+    esac
+
+    read -p "Input cross-hand measurement (mm) [$MEASUREMENT]: " INPUT
+    [[ -n "$INPUT" ]] && MEASUREMENT=$INPUT
+
+    read -p "Choose a primary print colour [$PRIMARY_COLOUR]: " INPUT
+    [[ -n "$INPUT" ]] && PRIMARY_COLOUR=$INPUT
+
+    read -p "Choose a secondary print colour [$SECONDARY_COLOUR]: " INPUT
+    [[ -n "$INPUT" ]] && SECONDARY_COLOUR=$INPUT
+fi
+
+OUTPUT_FOLDER=$BUILD_DIR/$USER_ID
+
+if [ -d $OUTPUT_FOLDER ] && [ $FORCE == 0 ] 
+then
+    if [ $SILENT_RUNNING == 1 ] 
+    then
+        echo "User_ID already exists. Use [-f] to overwrite."
+        exit 1
+    fi
+
+    read -p "This User_ID already exists. Overwrite? [yN] " ANSWER
+    case $ANSWER in
+        [yY]*) 
+            FORCE=1
+            ;;
+        *) 
+            echo "Not overwritten."
+            exit 1
+            ;;
+    esac
+fi
+
+if [ $FORCE == 1 ] 
+then 
+    rm -r $OUTPUT_FOLDER
+fi
+
+# make the directory in case it doesn't exist
+mkdir -p $OUTPUT_FOLDER
+
+echo "${yellow}Resizing STLs… ${reset}"
+
+# do the actual creation of the files
+# test to see we don't have any handed items that we don't want
+# i.e. don't do anything if we match the opposite of the hand 
+# we want in the filename
+for I in $INPUT_FOLDER/*.stl
+do 
+    if echo $I | grep -c -v -m 1 $HANDED_INVERSE &>/dev/null
+    then 
+        IN=$(echo $I | sed "s:stl$:scad:")
+        OUT=$(echo $I | sed "s:^$INPUT_FOLDER/:$OUTPUT_FOLDER/:g")
+        echo -n $IN
+        echo -n ' -> '
+        echo $OUT
+        openscad -o $OUT -D 'measurement='$MEASUREMENT'' $IN
+    fi
+done
+
+echo "${green}Done.${reset}"
+
+echo "${yellow}Generating multiples as necessary… ${reset}"
+
+# produce the multiple files that are needed to make printing easier
+# to use this correctly, call:
+#       multiple_copies search_string multiples
+# e.g.
+#       multiple_copies "fingertip" 5
+function multiple_copies {
+    SEARCH=$1
+    MULTIPLE=$2
+    for I in $(find $OUTPUT_FOLDER -name '*.stl' -name "*$SEARCH*")
+    do
+        J=1
+        while (($J<=$MULTIPLE))
+        do
+            OUTFILE=$(echo $I | sed "s:\.stl$:-$J\.stl:")
+            echo -n $I
+            echo -n " -> "
+            echo $OUTFILE
+            cp $I $OUTFILE
+            let J++
+        done
+        rm $I
+    done
+}
+
+multiple_copies "tensioner_pin" 2
+
+echo "${green}Done.${reset}"
+
+echo -n "${yellow}Organising the parts into plate folders… ${reset}"
+
+# create the output folders, populate with a name stl and the required number
+PLATE[0]=0-prerequisites
+PLATE[1]=1-cuff
+PLATE[2]=2-tensioner
+PLATE[3]=3-elbow
+PLATES=3
+for I in {0..3}
+do 
+    mkdir $OUTPUT_FOLDER/${PLATE[$I]}
+done
+
+# move the file into each plate folder by name
+function plate_folder {
+    SEARCH=$1
+    PLATE_NO=$2
+    for I in $OUTPUT_FOLDER/*$SEARCH*
+    do 
+        [ -f $I ] && mv $I $OUTPUT_FOLDER/${PLATE[$PLATE_NO]} 
+    done
+}
+
+plate_folder "cuff" 1
+plate_folder "box" 2
+plate_folder "wrist_hinge_caps" 2
+plate_folder "elbow_joint_interface" 2
+plate_folder "tensioner_pin" 2
+plate_folder "whippletree" 2
+plate_folder "elbow_joint" 3
+
+echo "${green}Done.${reset}"
+
+# generate the name tag (prerequisites, plate 0)
+echo "${yellow}Creating user-id tag.${reset}" 
+echo "${yellow}Generation of this STL may take a couple of minutes… ${reset}"
+
+openscad -o $OUTPUT_FOLDER/${PLATE[0]}/$USER_ID.stl -D 'line1="'$USER_ID'"; bar_style="surround_text"; font="Linux Libertine O"' $INPUT_FOLDER/$ID_FOLDER/HD_Font_Keychain_v4_0.scad
+
+for I in $INPUT_FOLDER/$ID_FOLDER/hook*.stl
+do
+    cp $I $OUTPUT_FOLDER/${PLATE[0]}
+done
+
+echo -n "${yellow}Putting the the number tags in each plate… ${reset}"
+
+openscad -o $OUTPUT_FOLDER/$USER_ID.stl -D 't="'$USER_ID'"' $INPUT_FOLDER/$ID_FOLDER/user-id.scad
+
+# copy the tag number stls from the id folder to the correct plate folder.
+for I in {1..3}
+do
+    cp $INPUT_FOLDER/$ID_FOLDER/tag-$I.stl $OUTPUT_FOLDER/${PLATE[$I]}
+    cp $OUTPUT_FOLDER/$USER_ID.stl $OUTPUT_FOLDER/${PLATE[$I]}
+done
+
+rm $OUTPUT_FOLDER/$USER_ID.stl
+
+echo "${green}Done.${reset}"
+
+echo "${yellow}Generating the settings file… ${reset}"
+
+SETTINGS_FILE=$OUTPUT_FOLDER/settings.dat
+echo "# Automatically generated settings file" > $SETTINGS_FILE
+echo "" >> $SETTINGS_FILE
+echo "# Prosthetics settings" >> $SETTINGS_FILE
+echo "USER_ID=$USER_ID" >> $SETTINGS_FILE
+echo "MEASUREMENT=$MEASUREMENT" >> $SETTINGS_FILE
+echo "HAND=$HAND" >> $SETTINGS_FILE
+echo "HANDED_INVERSE=$HANDED_INVERSE" >> $SETTINGS_FILE
+echo "PRIMAY_COLOUR=$PRIMARY_COLOUR" >> $SETTINGS_FILE
+echo "SECONDAR_COLOUR=$SECONDARY_COLOUR" >> $SETTINGS_FILE
+echo "" >> $SETTINGS_FILE
+echo "# Build settings" >> $SETTINGS_FILE
+echo "BUILD_DIR=$BUILD_DIR" >> $SETTINGS_FILE
+echo "INPUT_FOLDER=$INPUT_FOLDER" >> $SETTINGS_FILE
+echo "ID_FOLDER=$ID_FOLDER" >> $SETTINGS_FILE
+echo "" >> $SETTINGS_FILE
+echo "# Runtime settings" >> $SETTINGS_FILE
+echo "# SILENT_RUNNING=$SILENT_RUNNING" >> $SETTINGS_FILE
+echo "# FORCE=$FORCE" >> $SETTINGS_FILE
+
+echo "${green}Done.${reset}"
+
+echo "Semi-automatic plate generation requires"
+echo "    * Cura"
+echo ""
+read -p "${yellow}Do you wish to generate plates with Cura? (Yn): " ANSWER
+case $ANSWER in 
+    [nN]*)
+        echo "${green}stl files are collected into folders per printing plate at $OUTPUT_FOLDER${reset}"
+        exit 0
+        ;;
+esac
+
+function plater {
+    PLATE_FILENAME=$2-$1-$USER_ID
+    echo "${yellow}Ensure that all parts fit onto the build plate (move any that are grey)${reset}"
+    echo "${yellow}Save the output GCode file from Cura as ${blue}$PLATE_FILENAME.gcode${reset}"
+    echo "${yellow}And it should be saved in ${blue}$OUTPUT_FOLDER${reset}"
+    if [ $1 -eq 3 ]
+    then 
+        echo
+        echo "${red}This plate should be done with 0.1mm layer height, support material"
+        echo "${red}to buildplate and 55% infill{reset}"
+        echo
+    fi
+    read -p "Press ENTER to continue…" INPUT
+    mv $OUTPUT_FOLDER/${PLATE[$1]}/$USER_ID.stl $OUTPUT_FOLDER/${PLATE[$1]}/$PLATE_FILENAME.stl
+    cura `ls -c $OUTPUT_FOLDER/${PLATE[$1]}/*.stl`
+}
+
+for I in {0..3}
+do
+    plater $I $PRIMARY_COLOUR
+done
+
+echo "${green}Plating finished${reset}"
+exit 0
