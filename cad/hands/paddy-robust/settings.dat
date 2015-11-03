@@ -1,0 +1,18 @@
+# Automatically generated settings file
+
+# Prosthetics settings
+USER_ID=paddy-robust
+MEASUREMENT=52.95
+HAND=LEFT
+HANDED_INVERSE=right
+PRIMAY_COLOUR=Red
+SECONDAR_COLOUR=Yellow
+
+# Build settings
+BUILD_DIR=hands
+INPUT_FOLDER=src/RaptorWing
+ID_FOLDER=id
+
+# Runtime settings
+# SILENT_RUNNING=0
+# FORCE=0
