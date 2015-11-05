@@ -1,27 +1,26 @@
 ##BuildChecklist
 
+#### Exhibition closed, Liverpool print queue complete, wings in progress at DoES does Prosthetic Interest group.
 #### Refer to [issue #85](https://github.com/cheapjack/buildyourown/issues/85)
 
 Checklist for Raptor-Reloaded print progress at DesktopProsthetics in FACT **(now closed)**
 
 BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Reprint (new codename)
 ------------ | ------------- |------------ | ------------- | ------------ | -------------  
-gasp-law | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-gin-timers | <ul><li>[x] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-guts-squid | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] coil-Mars</li>
-leaf-keeps | <ul><li>[x] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] eddy-troops</li>
-gushes-eddy | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] beds-troy</li>
-manual-guts | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-Mars-teeth | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] tuck-guts</li>
-coil-leaf | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] peewee-undies</li>
-trite-keeps | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] gin-trite</li>
-month-reared | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-code-name | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-code-name | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+gasp-law | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>
+gin-timers | <ul><li>[x] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>
+guts-squid | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] coil-Mars</li>
+leaf-keeps | <ul><li>[x] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] eddy-troops</li>
+gushes-eddy | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[x] beds-troy</li>
+manual-guts | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>
+Mars-teeth | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[x] tuck-guts</li>
+coil-leaf | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] peewee-undies</li>
+trite-keeps | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[x] gin-trite</li>
+month-reared | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[x] </li>| <ul><li>[ ] </li>
 
 ### DoES Liverpool Print Queue
 
-Hands still being printed at DoES Liverpool now exhibition ended to pass on to interest group
+Hands still being printed at DoES Liverpool now exhibition ended passed on to interest group
 
 BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Reprint 
 ------------ | ------------- |------------ | ------------- | ------------ | ------------- 
@@ -34,6 +33,6 @@ ruing-beds | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ 
 peewee-undies | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 tuck-choosy | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 tuck-guts | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+undies-manual | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 code-name | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 
