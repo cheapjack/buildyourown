@@ -25,15 +25,15 @@ Hands still being printed at DoES Liverpool now exhibition ended to pass on to i
 
 BuildName | All Plates Printed | Assembled | Fitted | Collected | Requires Reprint 
 ------------ | ------------- |------------ | ------------- | ------------ | ------------- 
-beds-troy | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+beds-troy | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 coil-Mars | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-eddy-troops | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-gin-trite | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-grows-abort | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-ruing-beds | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+eddy-troops | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+gin-trite | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+grows-abort | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+ruing-beds | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 peewee-undies | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 tuck-choosy | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-tuck-guts | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+tuck-guts | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 undies-manual | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
-code-name | <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
+code-name | <ul><li>[x] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>| <ul><li>[ ] </li>
 
